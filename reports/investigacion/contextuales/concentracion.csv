@@ -1,0 +1,11 @@
+modelo,fraccion_error_cuadrado_5_peores
+global_perfil_localia,0.18003878063868103
+global_perfil_grupos,0.20458532842280122
+global_perfil_directos,0.2077590418961949
+global_perfil_analogos,0.20105662096841512
+global_perfil_directos_poisson,0.22114111510340417
+global_perfil_analogos_poisson,0.21725361544980296
+local_perfil_directos,0.1850739889740145
+local_perfil_analogos,0.1808230126204583
+local_analogos_simple,0.19027897007533906
+local_analogos_poisson,0.16638074845156664

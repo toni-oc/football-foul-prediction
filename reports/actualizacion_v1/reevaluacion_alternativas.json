@@ -1,0 +1,72 @@
+{
+  "inicial": {
+    "etapa": "inicial",
+    "periodo": "2026/27",
+    "cortes": 85,
+    "parcial": false,
+    "datos_sinteticos": false,
+    "huella": "2e8daade6529c838e788dd3a986bfdb184009089e787dc47f2628a9aee8008e8",
+    "predicciones": 1232,
+    "modelos": 7
+  },
+  "ajuste": {
+    "etapa": "ajuste",
+    "periodo": "2026/27",
+    "cortes": 85,
+    "parcial": false,
+    "datos_sinteticos": false,
+    "huella": "b487d4bad33a845da0e1bd48f4a74960cc77b9d1eeddf98b88e7d098e3d400f6",
+    "predicciones": 1408,
+    "modelos": 8
+  },
+  "reducidos": {
+    "etapa": "reducidos",
+    "periodo": "2026/27",
+    "cortes": 85,
+    "parcial": false,
+    "datos_sinteticos": false,
+    "huella": "16971e687eb47870766c46622ec84794343b2483731dcec92322ecabfb24325f",
+    "predicciones": 2112,
+    "modelos": 12
+  },
+  "contextuales": {
+    "etapa": "contextuales",
+    "periodo": "2026/27",
+    "cortes": 85,
+    "parcial": false,
+    "datos_sinteticos": false,
+    "huella": "2c5971afc81ba7100a85282766cdd5100c73842e199b4e543e5a8c23872efe73",
+    "predicciones": 1760,
+    "modelos": 10
+  },
+  "equilibrio": {
+    "etapa": "equilibrio",
+    "periodo": "2026/27",
+    "cortes": 85,
+    "parcial": false,
+    "datos_sinteticos": false,
+    "huella": "b364b9edbfed823add97b7d05e269f973ba43b2548e85e4927e02b9e1f53ab52",
+    "predicciones": 176,
+    "modelos": 1
+  },
+  "rejilla": {
+    "etapa": "rejilla",
+    "periodo": "2026/27",
+    "cortes": 85,
+    "parcial": false,
+    "datos_sinteticos": false,
+    "huella": "a1e906451206ebacb45408f194938d6e71fe3644ad192b393600a0a0d85c5cf1",
+    "predicciones": 25344,
+    "modelos": 144
+  },
+  "confirmacion": {
+    "etapa": "confirmacion",
+    "periodo": "2025/26",
+    "cortes": 349,
+    "parcial": false,
+    "datos_sinteticos": false,
+    "huella": "1b9f60c621248c44261a7139840c699325fea3e0737f59024db663b413f370c0",
+    "predicciones": 12920,
+    "modelos": 17
+  }
+}

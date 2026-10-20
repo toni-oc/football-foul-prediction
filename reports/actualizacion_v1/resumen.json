@@ -1,0 +1,30 @@
+{
+  "captura_utc": "2026-10-20T10:36:55Z",
+  "temporada": "2026/27",
+  "partidos_finalizados": 1228,
+  "partidos_actuales": 88,
+  "jornada_hasta": 9,
+  "partidos_actuales_registrados": 100,
+  "pendientes_anteriores": 2,
+  "programados": 10,
+  "ultimo_inicio_finalizado_utc": "2026-10-19T19:00:32+00:00",
+  "huella_datos": "8b57ad5c8f220b0669096f213d13246dfd91aad0c0be22d448072a699c0125d0",
+  "modelo_recomendado": "grid_global93_030",
+  "nombre_recomendado": "XGBoost global (93)",
+  "fecha_evaluacion_utc": "2026-10-20T15:48:03.878861+00:00",
+  "recetas_fijas": true,
+  "nuevo_test_independiente": false,
+  "politica": {
+    "masas_temporadas": [
+      0.35,
+      0.35,
+      0.2,
+      0.1
+    ],
+    "semivida_dias": 90
+  },
+  "desarrollo_partidos": 59,
+  "contraste_partidos": 29,
+  "alcance": "Estudio retrospectivo unificado hasta J9",
+  "test_independiente": false
+}

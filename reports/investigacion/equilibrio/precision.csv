@@ -1,0 +1,2 @@
+modelo,partidos,n,error_hasta2_pct,error_hasta3_pct,error_desde5_pct,max_error_absoluto,correlacion,desv_prediccion,desv_observada
+local_perfil_directos_equilibrado,88,176,44.88636363636363,56.81818181818182,21.59090909090909,10.724647521972656,0.2898703776143233,2.301124675990769,3.9195770710096283

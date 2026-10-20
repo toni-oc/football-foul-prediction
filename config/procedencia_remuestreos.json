@@ -1,0 +1,8 @@
+{
+  "origen_sha256": {
+    "src/faltas/comparacion.py": "969a8e6d3464f5cda33e8192938253f425575ab341e5c0aca7ee69d4bc4a85a4",
+    "scripts/guardar_grid_temporal.py": "8cbae51c5f77d2f502c2b8de3c62ca2442ad4a59b4e4c0c1ea85413a309a1b3c",
+    ".runtime/finalizar_cierre_auditoria.py": "473c0c91428dfde40686edf7d0cb340d38ee7dc919588f1451da0cd6c384cdf5"
+  },
+  "adaptacion": "Las expresiones de los intervalos se extraen como API pura; el verificador exige las mismas cifras. La rejilla conserva el avance compartido del RNG entre ganadores."
+}

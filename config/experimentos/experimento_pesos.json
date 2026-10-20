@@ -1,0 +1,113 @@
+{
+  "version": "pesos-temporadas-v1",
+  "id_ejecucion": "20261018T101917137095Z",
+  "temporada": "2026/27",
+  "semivida_dias": 90,
+  "politicas": [
+    {
+      "id": "p55_25_13_07",
+      "masas_temporadas": [
+        0.55,
+        0.25,
+        0.13,
+        0.07
+      ],
+      "motivo": "Control original: mayoría actual."
+    },
+    {
+      "id": "p50_30_12_08",
+      "masas_temporadas": [
+        0.5,
+        0.3,
+        0.12,
+        0.08
+      ],
+      "motivo": "Reducir la diferencia entre actual y anterior."
+    },
+    {
+      "id": "p45_30_15_10",
+      "masas_temporadas": [
+        0.45,
+        0.3,
+        0.15,
+        0.1
+      ],
+      "motivo": "Transición moderada con más apoyo antiguo."
+    },
+    {
+      "id": "p40_35_15_10",
+      "masas_temporadas": [
+        0.4,
+        0.35,
+        0.15,
+        0.1
+      ],
+      "motivo": "Actual y anterior próximas; 25% para las dos antiguas."
+    },
+    {
+      "id": "p40_30_20_10",
+      "masas_temporadas": [
+        0.4,
+        0.3,
+        0.2,
+        0.1
+      ],
+      "motivo": "Descenso regular entre temporadas."
+    },
+    {
+      "id": "p35_35_20_10",
+      "masas_temporadas": [
+        0.35,
+        0.35,
+        0.2,
+        0.1
+      ],
+      "motivo": "Igualdad actual/anterior y descenso posterior."
+    },
+    {
+      "id": "p35_30_20_15",
+      "masas_temporadas": [
+        0.35,
+        0.3,
+        0.2,
+        0.15
+      ],
+      "motivo": "Histórico repartido; mínima distancia entre las recientes."
+    },
+    {
+      "id": "p30_30_25_15",
+      "masas_temporadas": [
+        0.3,
+        0.3,
+        0.25,
+        0.15
+      ],
+      "motivo": "Mayor suavizado: actual/anterior iguales y más historia."
+    },
+    {
+      "id": "p40_40_12_08",
+      "masas_temporadas": [
+        0.4,
+        0.4,
+        0.12,
+        0.08
+      ],
+      "motivo": "Igualdad actual/anterior, concentrando 80% en ambas."
+    }
+  ],
+  "control": "p55_25_13_07",
+  "modelos": [
+    "equipo_rival_previo",
+    "grid_global93_030",
+    "grid_pareja29_equilibrada_024"
+  ],
+  "seleccion": "Reparto común para V1: menor media del RMSE de los tres métodos en los mismos 59 partidos de desarrollo; desempate por media del MAE y después ID. No elegir por contraste temporal ni acumulado.",
+  "evaluacion": "59 partidos de desarrollo, 29 de contraste temporal y 88 acumulados hasta J9. Cada pronóstico utiliza solo antecedentes disponibles. El análisis es retrospectivo.",
+  "invariantes": "Hiperparámetros, 93/29 entradas, afinidad por perfiles, masas iguales por club, fórmula 50/50 de referencia y disponibilidad histórica +24h. Semivida 90 días.",
+  "alcance_pesos": "Actualizar tanto los sample_weight del entrenamiento como todas las medias históricas ponderadas, incluidas las de cada fila antigua en su propia emisión. No cambiar únicamente los pesos del estimador.",
+  "guarda": "El código anterior exige mayoría >50%; usar un adaptador experimental con validación explícita positiva, suma 1 y pesos no crecientes, permitiendo igualdad actual/anterior. No modificar fuentes selladas.",
+  "limitacion": "Estudio retrospectivo con múltiples ajustes. Se muestran desarrollo, contraste temporal y acumulado. La selección repetida limita la independencia; hace falta seguimiento prospectivo.",
+  "procesos": 2,
+  "sustituir_modelos": false,
+  "seleccion_individual": "Comparación complementaria: para cada método, menor RMSE de desarrollo, con MAE e ID como desempate. Estos mínimos individuales se muestran para diagnóstico; no establecen tres repartos operativos diferentes."
+}

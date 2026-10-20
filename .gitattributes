@@ -1,0 +1,15 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.ipynb text eol=lf
+# Las huellas de los CSV congelados dependen de sus bytes originales.
+*.csv -text
+
+# Las evidencias, recetas originales y capturas se verifican por sus bytes.
+# Conservar también JSON y código histórico al pasar por Git en cualquier sistema.
+config/** -text -eol
+reports/** -text -eol
+src/faltas/investigacion/metodos/** -text -eol
+data/local/** -text -eol

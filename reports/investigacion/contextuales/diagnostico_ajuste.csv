@@ -1,0 +1,11 @@
+modelo,observaciones_train,partidos_train,columnas_entrada,variables_salida,segundos,ajustes,ajustes_con_aviso
+global_perfil_localia,2361.6,1180.8,18.0,45.0,0.5200076988232254,85,0
+global_perfil_grupos,2361.6,1180.8,26.0,61.0,0.6124470258828403,85,0
+global_perfil_directos,2361.6,1180.8,28.0,65.0,0.6684734576469055,85,0
+global_perfil_analogos,2361.6,1180.8,32.0,73.0,0.7257335047056104,85,0
+global_perfil_directos_poisson,2361.6,1180.8,28.0,65.0,0.3086125235288979,85,0
+global_perfil_analogos_poisson,2361.6,1180.8,32.0,73.0,0.32894632352861874,85,0
+local_perfil_directos,182.2840909090909,,29.0,,0.46231467954434763,88,0
+local_perfil_analogos,182.2840909090909,,33.0,,0.4796368318182596,88,0
+local_analogos_simple,182.2840909090909,,33.0,,0.45338057727349224,88,0
+local_analogos_poisson,182.2840909090909,,33.0,,0.2941542568172405,88,0

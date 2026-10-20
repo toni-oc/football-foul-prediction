@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "ambito": "Modelo común de la liga, con perfil previo distinto para cada equipo y rival",
+  "temporada_activa": "Se deriva de la fecha de emisión, con cambio de temporada el 1 de julio; no se fija 2026/27 en los backtests antiguos",
+  "historial_operativo": "Todos los resultados finalizados conocidos en la captura utilizada; las pertenencias a validación o test no son exclusiones permanentes del uso operativo",
+  "prioridad": "La temporada activa tendrá la mayor masa de peso; dentro de cada temporada los partidos recientes pesan más. La temporada anterior supera a las más antiguas.",
+  "normalizacion": "Se reparte una masa por temporada y después entre sus observaciones según recencia; un histórico más voluminoso no anula automáticamente la prioridad de la temporada activa. Pesos finales con media 1.",
+  "politica_demostracion": "actualidad_base",
+  "politicas_candidatas": {
+    "actualidad_base": {
+      "masas_temporadas": [
+        0.55,
+        0.25,
+        0.13,
+        0.07
+      ],
+      "semivida_dias": 90
+    },
+    "actualidad_marcada": {
+      "masas_temporadas": [
+        0.65,
+        0.22,
+        0.09,
+        0.04
+      ],
+      "semivida_dias": 60
+    },
+    "actualidad_moderada": {
+      "masas_temporadas": [
+        0.51,
+        0.29,
+        0.14,
+        0.06
+      ],
+      "semivida_dias": 120
+    }
+  },
+  "seleccion": "Políticas comparadas como hipótesis en desarrollo. Las tablas muestran resultados y criterios de selección. La referencia uniforme permite medir qué aporta ponderar.",
+  "criterio_seleccion": {
+    "principal": "Menor RMSE fuera de muestra en los partidos de desarrollo de la temporada de referencia actual del estudio",
+    "temporada_referencia_estudio": "2026/27",
+    "desempates_en_orden": [
+      "Menor MAE en el mismo periodo actual",
+      "Menor RMSE en la temporada anterior de validación",
+      "Menor complejidad del modelo"
+    ],
+    "informes_adicionales": [
+      "RMSE, MAE y sesgo globales y por temporada",
+      "Número de partidos por periodo",
+      "Variación por corte y revisión de estabilidad"
+    ],
+    "limite": "La temporada actual tiene pocos partidos de desarrollo; no confundir selección interna con evidencia final. No se utiliza el test para cambiar estas reglas."
+  },
+  "inicio_temporada_sin_resultados": "Si todavía no hay partidos disponibles de la temporada activa, redistribuir la masa entre las temporadas disponibles y dejar constancia; no inventar comportamiento actual.",
+  "estado": "Candidatos iniciales Poisson y XGBoost incluidos como controles del estudio V1.",
+  "variables_previas_implementadas": {
+    "rendimiento_actual": [
+      "Medias propias y del rival de la temporada activa",
+      "Últimos cinco partidos disponibles",
+      "Local y visitante por separado"
+    ],
+    "referencias_anteriores": [
+      "Temporada anterior separada",
+      "Historia anterior ponderada y número de antecedentes"
+    ],
+    "contexto": [
+      "Grupos K2 reconstruidos antes del corte",
+      "Antecedentes disponibles contra cada grupo",
+      "Árbitro únicamente con designación previa disponible",
+      "H2H con tamaño de muestra"
+    ],
+    "regla": "Mismas funciones en entrenamiento e inferencia. Cada fila histórica debe usar su propio corte, no el corte de entrenamiento del modelo ni el perfil actual. Las estadísticas del propio encuentro quedan excluidas."
+  }
+}

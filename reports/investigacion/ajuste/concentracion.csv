@@ -1,0 +1,9 @@
+modelo,fraccion_error_cuadrado_5_peores
+poisson_alpha10,0.1978812507950824
+poisson_alpha100,0.19781384952823983
+xgb_poisson_suave,0.20190301959895016
+xgb_poisson_200,0.21046409336048844
+xgb_cuadratico_suave,0.19808226282119656
+xgb_poisson_marcada,0.21258585037785915
+xgb_poisson_moderada,0.21591374728905915
+xgb_poisson_sin_grupos,0.20870892178035788

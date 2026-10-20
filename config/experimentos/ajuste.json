@@ -1,0 +1,327 @@
+{
+  "version": "ajuste-v1",
+  "manifest_fase7_sha256": "34ac80ebe07f5f2fb2d7e98297c2e41b8e9bdda405979da4743a66181720d2d1",
+  "temporada_actual": "2026/27",
+  "temporada_anterior": "2025/26",
+  "finalistas": 2,
+  "procesos": 2,
+  "semilla": 42,
+  "plan_fijado_antes_de_nuevos_ajustes": true,
+  "presupuesto": "11 configuraciones ML: 3 originales reutilizadas y 8 alternativas. Todas se comparan en los 59 partidos actuales de desarrollo. Las 2 mejores ML se contrastan en los 380 de la temporada anterior; se reutiliza todo resultado equivalente. No se amplía la búsqueda tras ver las métricas.",
+  "seleccion": "Orden lexicográfico: RMSE actual, MAE actual, RMSE anterior si hay empate exacto, complejidad predefinida y finalmente ID. Las 4 referencias también pueden ganar. No se redondea para seleccionar.",
+  "politica_variables": "actualidad_base fija; se ajustan por separado los pesos de filas. No se reponderan las medias de X al cambiar la pérdida.",
+  "actualizacion_test_predefinida": "Contraste temporal con configuración fija y resultados disponibles en cada corte. El resultado propio no entra en su ajuste. La exploración retrospectiva no se presenta como prueba ciega.",
+  "experimentos": [
+    {
+      "id": "poisson_glm",
+      "candidato": {
+        "familia": "poisson",
+        "escalar": true,
+        "parametros": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "tol": 1e-06,
+          "warm_start": false
+        }
+      },
+      "politica_filas": "actualidad_base",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": false,
+      "complejidad": 1,
+      "hipotesis": "Candidato inicial reutilizado como control.",
+      "original": true
+    },
+    {
+      "id": "xgb_poisson",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "politica_filas": "actualidad_base",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": false,
+      "complejidad": 800,
+      "hipotesis": "Candidato inicial reutilizado como control.",
+      "original": true
+    },
+    {
+      "id": "xgb_cuadratico",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "reg:squarederror",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.0,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "politica_filas": "actualidad_base",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": false,
+      "complejidad": 800,
+      "hipotesis": "Candidato inicial reutilizado como control.",
+      "original": true
+    },
+    {
+      "id": "poisson_alpha10",
+      "candidato": {
+        "familia": "poisson",
+        "escalar": true,
+        "parametros": {
+          "alpha": 10.0,
+          "fit_intercept": true,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "tol": 1e-06,
+          "warm_start": false
+        }
+      },
+      "politica_filas": "actualidad_base",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": false,
+      "complejidad": 1,
+      "hipotesis": "Reducir varianza mediante mayor regularización.",
+      "original": false
+    },
+    {
+      "id": "poisson_alpha100",
+      "candidato": {
+        "familia": "poisson",
+        "escalar": true,
+        "parametros": {
+          "alpha": 100.0,
+          "fit_intercept": true,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "tol": 1e-06,
+          "warm_start": false
+        }
+      },
+      "politica_filas": "actualidad_base",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": false,
+      "complejidad": 1,
+      "hipotesis": "Contrastar una contracción más intensa.",
+      "original": false
+    },
+    {
+      "id": "xgb_poisson_suave",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 20.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "politica_filas": "actualidad_base",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": false,
+      "complejidad": 400,
+      "hipotesis": "Árboles más simples y mayor regularización.",
+      "original": false
+    },
+    {
+      "id": "xgb_poisson_200",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 200,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 20,
+          "reg_lambda": 20.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "politica_filas": "actualidad_base",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": false,
+      "complejidad": 1600,
+      "hipotesis": "Más pasos de aprendizaje con mayor regularización; bloque conjunto, no atribución aislada.",
+      "original": false
+    },
+    {
+      "id": "xgb_cuadratico_suave",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "reg:squarederror",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 2,
+          "min_child_weight": 20,
+          "reg_lambda": 20.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.0,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "politica_filas": "actualidad_base",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": false,
+      "complejidad": 400,
+      "hipotesis": "Comprobar si el objetivo cuadrático mejora al simplificar.",
+      "original": false
+    },
+    {
+      "id": "xgb_poisson_marcada",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "politica_filas": "actualidad_marcada",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": false,
+      "complejidad": 800,
+      "hipotesis": "Aislar mayor peso de actualidad en la pérdida, con X fijo.",
+      "original": false
+    },
+    {
+      "id": "xgb_poisson_moderada",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "politica_filas": "actualidad_moderada",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": false,
+      "complejidad": 800,
+      "hipotesis": "Aislar una prioridad actual algo menor, siempre superior al 50 %.",
+      "original": false
+    },
+    {
+      "id": "xgb_poisson_sin_grupos",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "politica_filas": "actualidad_base",
+      "politica_variables": "actualidad_base",
+      "sin_grupos": true,
+      "complejidad": 800,
+      "hipotesis": "Ablación de grupos y todas las variables vs_grupo; mismos cortes e IDs.",
+      "original": false
+    }
+  ]
+}

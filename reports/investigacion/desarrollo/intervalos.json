@@ -1,0 +1,52 @@
+{
+  "ajuste": {
+    "modelo": "xgb_poisson_sin_grupos",
+    "referencia": "equipo_rival_previo",
+    "partidos": 59,
+    "delta_RMSE": -0.08871919263766737,
+    "p025_descriptivo": -0.3130214075260663,
+    "p975_descriptivo": 0.14144501353315575,
+    "limite": "Intervalo exploratorio por partidos, condicionado a datos y selección; no demuestra superioridad ni corrige búsqueda ni dependencia temporal."
+  },
+  "equilibrio": {
+    "modelo": "local_perfil_directos_equilibrado",
+    "referencia": "local_perfil_directos",
+    "partidos": 59,
+    "delta_RMSE": -0.02449927776333416,
+    "p025_descriptivo": -0.10621124829728877,
+    "p975_descriptivo": 0.054936091227815224,
+    "limite": "Intervalo exploratorio por partidos, condicionado a datos y selección; no demuestra superioridad ni corrige búsqueda ni dependencia temporal."
+  },
+  "rejilla": [
+    {
+      "modelo": "grid_pareja29_equilibrada_024",
+      "control": "local_perfil_directos_equilibrado",
+      "delta_RMSE": -0.032741384910852656,
+      "intervalo_percentil95": [
+        -0.15490396695883168,
+        0.0995725919774553
+      ],
+      "advertencia": "Descriptivo, condicionado a selección; no corrige búsqueda ni dependencia temporal."
+    },
+    {
+      "modelo": "grid_pareja29_original_012",
+      "control": "local_perfil_directos",
+      "delta_RMSE": -0.03811213694865634,
+      "intervalo_percentil95": [
+        -0.09972432435035364,
+        0.02469128332163352
+      ],
+      "advertencia": "Descriptivo, condicionado a selección; no corrige búsqueda ni dependencia temporal."
+    },
+    {
+      "modelo": "grid_global93_030",
+      "control": "xgb_poisson_sin_grupos",
+      "delta_RMSE": -0.006755485760696622,
+      "intervalo_percentil95": [
+        -0.03510188793710508,
+        0.02363693652345496
+      ],
+      "advertencia": "Descriptivo, condicionado a selección; no corrige búsqueda ni dependencia temporal."
+    }
+  ]
+}

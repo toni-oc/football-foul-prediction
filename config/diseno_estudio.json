@@ -1,0 +1,13 @@
+{
+  "version": "V1-J9",
+  "temporada": "2026/27",
+  "captura_utc": "2026-10-20T10:36:55Z",
+  "huella_datos": "8b57ad5c8f220b0669096f213d13246dfd91aad0c0be22d448072a699c0125d0",
+  "jornada_hasta": 9,
+  "jornadas_desarrollo_hasta": 6,
+  "partidos_desarrollo": 59,
+  "partidos_contraste": 29,
+  "partidos_actuales": 88,
+  "alcance": "Estudio retrospectivo. El contraste temporal no se presenta como test ciego independiente de toda la exploración.",
+  "regla": "Desarrollo: encuentros finalizados hasta J6. Contraste: finalizados posteriores. Cada pronóstico usa solo antecedentes disponibles en su corte."
+}

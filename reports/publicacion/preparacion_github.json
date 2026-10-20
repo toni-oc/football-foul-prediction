@@ -1,0 +1,63 @@
+{
+  "fecha": "2026-10-20",
+  "publicado": false,
+  "alcance": "Código, documentación, plantillas vacías y resultados agregados",
+  "csv_reales_incluidos": false,
+  "captura_original_incluida": false,
+  "plantillas_csv": 6,
+  "notebooks": 4,
+  "salidas_retiradas_por_notebook": {
+    "01_datos_y_variables.ipynb": 4,
+    "02_modelos_y_experimentos.ipynb": 1,
+    "03_resultados_y_cierre.ipynb": 9,
+    "04_consultar_partido.ipynb": 5
+  },
+  "informes_no_distribuidos": [
+    "reports/investigacion/ajuste/metricas_cortes.csv",
+    "reports/investigacion/contextuales/metricas_cortes.csv",
+    "reports/investigacion/equilibrio/metricas_cortes.csv",
+    "reports/investigacion/inicial/metricas_cortes.csv",
+    "reports/investigacion/reducidos/metricas_cortes.csv",
+    "reports/investigacion/rejilla/metricas_cortes.csv",
+    "reports/actualizacion_v1/caso_1_contribuciones.png",
+    "reports/actualizacion_v1/caso_2_contribuciones.png",
+    "reports/actualizacion_v1/caso_3_contribuciones.png"
+  ],
+  "informes_sellados_conservados_sin_modificar": 101,
+  "metodos_cientificos_modificados": false,
+  "original_preservado": true,
+  "reproduccion_exacta_sin_captura_original": false,
+  "comprobaciones": {
+    "sintaxis_python_archivos": 52,
+    "enlaces_internos": 203,
+    "anclas": 50,
+    "errores_enlaces": 0,
+    "metodos_cientificos_verificados": 80,
+    "celdas_originales_con_destino": 267,
+    "unittest_sin_datos": "OK: 17 pruebas contabilizadas; 5 omisiones reportadas, incluida una clase dependiente de la captura privada",
+    "zip_local_verificado": true,
+    "carga_real_solo_lectura_y_huella_original_verificadas": true,
+    "se_copiaron_datos_reales": false,
+    "origen_243_archivos_verificados_sin_cambios": true,
+    "nuevos_entrenamientos": "No necesarios: configuraciones y métodos conservados; informes numéricos idénticos por SHA-256",
+    "codigo_cientifico_y_recetas_numericas_conservados": true,
+    "recorrido_publico_ajustado_a_los_archivos_distribuidos": true,
+    "ids_desarrollo_reconstruidos_y_comparados_con_captura_privada": 59,
+    "captura_distinta_rechazada_por_verificador": true
+  },
+  "informes_sellados_publicos": 102,
+  "figuras_actualizadas_solo_presentacion": [
+    "reports/actualizacion_v1/error_por_contexto.png"
+  ],
+  "revision_editorial_cerrada": {
+    "referencias_a_archivos_no_distribuidos_resueltas": true,
+    "instrucciones_de_entrada_coherentes": true,
+    "seleccion_individual_y_comun_diferenciadas": true,
+    "nueve_repartos_incluyen_control_inicial": true,
+    "grafico_contextual_con_tamanos_de_muestra": true,
+    "nuevos_entrenamientos": false,
+    "csv_y_metricas_modificados": false,
+    "publicado": false
+  },
+  "contexto_del_acta": "Registro de comprobaciones previo a la primera publicación. Los campos publicado describen ese momento, no la disponibilidad actual del repositorio."
+}

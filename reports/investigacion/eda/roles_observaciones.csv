@@ -1,0 +1,43 @@
+campo,tipo,rol,uso
+id_partido,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+competicion,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+temporada,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+jornada,Int64,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+fecha_inicio_utc,"datetime64[ns, UTC]",control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+estado,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+id_arbitro_final,string,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+arbitro_final_observado,string,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+id_fuente,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+estado_auditoria_estadisticas,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+estado_auditoria_fuente,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+incidencia_origen,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+es_elegible,boolean,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+motivo_elegibilidad,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+etiqueta_disponible_utc,"datetime64[ns, UTC]",control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+id_equipo,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+equipo,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+id_rival,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+rival,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+es_local,bool,entrada conocida previa,Localía; las otras entradas predictivas se construirán después de reservar la evaluación
+id_observacion,string,control / trazabilidad,"Identificar, unir y dividir temporalmente; no seleccionar automáticamente como predictor"
+faltas_objetivo,Int64,etiqueta,Resultado final para evaluar; nunca entrada del mismo encuentro
+faltas_rival_observadas,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+faltas_total_observadas,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+goles_propio_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+goles_rival_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+goles_descanso_propio_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+goles_descanso_rival_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+amarillas_propio_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+amarillas_rival_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+expulsados_propio_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+expulsados_rival_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+tiros_propio_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+tiros_rival_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+tiros_puerta_propio_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+tiros_puerta_rival_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+corners_propio_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+corners_rival_observado,Int64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+entrenador_propio_observado,string,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+entrenador_rival_observado,string,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+posesion_propia_pct_observada,Float64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro
+posesion_rival_pct_observada,Float64,resultado histórico / posterior,Solo historial anterior para futuras variables; no predictor directo de este encuentro

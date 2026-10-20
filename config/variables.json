@@ -1,0 +1,35 @@
+{
+  "version": "previas-v1",
+  "ventana_ultimos": 5,
+  "temporadas_maximas": 4,
+  "politica_referencia": "actualidad_base",
+  "incluir_identidades": true,
+  "grupos": {
+    "version": "K2-previo-v1",
+    "k": 2,
+    "min_partidos_actuales": 3,
+    "min_equipos": 6,
+    "min_variables": 2,
+    "semilla": 42,
+    "n_init": 10,
+    "pesos_bloques": {
+      "rendimiento": 0.5,
+      "dominio": 0.3,
+      "estilo": 0.2
+    },
+    "regla": "Ajustar perfiles, imputación por mediana, escala y KMeans solo con resultados actuales disponibles en cada emisión. Sin roster futuro ni fotografía publicada actual. Grupo 1/2 son categorías. Sin perfil cuando faltan antecedentes."
+  },
+  "designaciones": {
+    "tipos_admitidos": [
+      "Designación previa",
+      "Designación oficial"
+    ],
+    "estados_admitidos": [
+      "Acreditada",
+      "Conocida antes de emisión"
+    ],
+    "regla": "Publicado estrictamente antes de emitir; última designación previa acreditada. No deducirla del árbitro final."
+  },
+  "grupos_antecedentes": "Conservar el grupo del rival reconstruido en la emisión de aquel antecedente; no reclasificarlo con datos posteriores.",
+  "ausencias": "Medias sin antecedentes quedan ausentes con tamaño de muestra cero. No imputar con información global o futura. Imputación/codificación del predictor en la fase siguiente dentro de cada entrenamiento."
+}

@@ -1,0 +1,156 @@
+{
+  "estado_tecnico": "Verificado: estudio V1 unificado hasta J9",
+  "fecha_cierre": "2026-10-20",
+  "captura_utc": "2026-10-20T10:36:55Z",
+  "temporada": "2026/27",
+  "jornada_hasta": 9,
+  "partidos_finalizados": 1228,
+  "partidos_actuales": 88,
+  "muestras": {
+    "desarrollo": 59,
+    "contraste_temporal": 29,
+    "acumulado": 88,
+    "criterio": "Desarrollo: finalizados hasta J6. Contraste: posteriores. Separación retrospectiva, sin afirmar un test ciego independiente."
+  },
+  "metricas": [
+    {
+      "modelo": "grid_global93_030",
+      "n": 176,
+      "partidos": 88,
+      "MAE": 2.943933080543171,
+      "RMSE": 3.696316143766706,
+      "sesgo": 0.16530012542551215,
+      "sobreestima_pct": 48.86363636363637,
+      "infraestima_pct": 51.13636363636363,
+      "exacta_pct": 0.0,
+      "mediana_error": -0.16790151596069336,
+      "asimetria_error": -0.2681697046391292,
+      "error_absoluto_p90": 5.827956199645996
+    },
+    {
+      "modelo": "equipo_rival_previo",
+      "n": 176,
+      "partidos": 88,
+      "MAE": 2.9366666745714785,
+      "RMSE": 3.7172608445096755,
+      "sesgo": 0.34683516307580003,
+      "sobreestima_pct": 56.25,
+      "infraestima_pct": 43.75,
+      "exacta_pct": 0.0,
+      "mediana_error": 0.289085252851204,
+      "asimetria_error": -0.3749880082718283,
+      "error_absoluto_p90": 6.289333181834543
+    },
+    {
+      "modelo": "grid_pareja29_equilibrada_024",
+      "n": 176,
+      "partidos": 88,
+      "MAE": 2.9865963649793312,
+      "RMSE": 3.823979854764192,
+      "sesgo": 0.36765719803461283,
+      "sobreestima_pct": 53.40909090909091,
+      "infraestima_pct": 46.590909090909086,
+      "exacta_pct": 0.0,
+      "mediana_error": 0.2633070945739746,
+      "asimetria_error": -0.20040420112411683,
+      "error_absoluto_p90": 6.110573768615723
+    }
+  ],
+  "comprobacion_numerica": {
+    "partidos": 88,
+    "predicciones": 528,
+    "modelos": 3,
+    "previsiones_y_metricas_identicas": true,
+    "nuevo_entrenamiento_solicitado": false
+  },
+  "pruebas_automatizadas": {
+    "superadas": 31,
+    "fallos": 0
+  },
+  "intervalos_verificados": {
+    "comparaciones": 5,
+    "max_diferencia": 0.0,
+    "nuevos_ajustes": 0,
+    "semilla": 42
+  },
+  "cobertura": {
+    "lineas_de_trabajo": 32,
+    "variantes": 38,
+    "configuraciones_rejilla": 144,
+    "politicas_temporadas": 9,
+    "ramas_contrastadas_temporada_anterior": 17,
+    "partidos_temporada_anterior": 380,
+    "metodos_y_controles_del_contraste": 8,
+    "tablas_eda": 15,
+    "figuras_eda": 3,
+    "figuras_diagnosticos": 11
+  },
+  "notebooks": [
+    {
+      "archivo": "01_datos_y_variables.ipynb",
+      "celdas_codigo": 8,
+      "ejecutado_sin_errores": true
+    },
+    {
+      "archivo": "02_modelos_y_experimentos.ipynb",
+      "celdas_codigo": 9,
+      "ejecutado_sin_errores": true
+    },
+    {
+      "archivo": "03_resultados_y_cierre.ipynb",
+      "celdas_codigo": 12,
+      "ejecutado_sin_errores": true
+    },
+    {
+      "archivo": "04_consultar_partido.ipynb",
+      "celdas_codigo": 4,
+      "ejecutado_sin_errores": true
+    }
+  ],
+  "revision_documental": {
+    "estado": "correcto",
+    "fallos": [],
+    "notebooks": 4,
+    "celdas_codigo": 33,
+    "enlaces_verificados": 197,
+    "anclas_verificadas": 50,
+    "archivos_versionables_revisados": 235,
+    "variantes": 38,
+    "configuraciones": 144,
+    "politicas": 9,
+    "metodos_contraste": 8,
+    "desarrollo": 59,
+    "contraste_temporal": 29,
+    "partidos_acumulados": 88,
+    "metricas_predictivas_sin_cambios": true,
+    "datos_recetas_y_motor_predictivo_intactos": true,
+    "conservacion": {
+      "funciones_y_clases_verificadas_por_huellas": 80,
+      "informes_del_estudio_verificados": 111,
+      "celdas_originales_con_destino": 267,
+      "notebooks": 4,
+      "procedencia_y_cobertura_correctas": true
+    },
+    "publicado": false
+  },
+  "conservacion_original": {
+    "funciones_y_clases_verificadas_por_huellas": 80,
+    "informes_del_estudio_verificados": 111,
+    "celdas_originales_con_destino": 267,
+    "notebooks": 4,
+    "procedencia_y_cobertura_correctas": true,
+    "original_comprobado_por_huellas_de_metodos_y_celdas": true
+  },
+  "respaldo_externo": {
+    "archivo_reversible": true,
+    "archivos_comprobados": 172,
+    "perdidas": 0
+  },
+  "cambios_del_motor_predictivo": false,
+  "cambios_de_datos": false,
+  "cambios_de_recetas": false,
+  "nota_metodos": "Dos auxiliares gráficos adaptan títulos y nombres a sus recuentos reales. Se verifican las huellas de los 80 métodos; los cálculos predictivos no cambian.",
+  "publicado": false,
+  "distribucion_datos": "Permisos de redistribución pendientes; exportación desactivada.",
+  "contexto_del_acta": "Registro de comprobaciones previo a la primera publicación. Los campos publicado describen ese momento, no la disponibilidad actual del repositorio."
+}

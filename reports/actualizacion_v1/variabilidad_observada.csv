@@ -1,0 +1,61 @@
+id_equipo,equipo,n_partidos,media_faltas,desv_faltas,minimo,maximo,iqr,muestra
+LL-T-11,Levante UD,5,10.0,2.0,7,12,2.0,Desarrollo
+LL-T-12,Málaga CF,6,12.333333333333334,3.07679486912382,9,17,4.0,Desarrollo
+LL-T-13,Osasuna,6,12.833333333333334,3.188521078284832,9,17,4.75,Desarrollo
+LL-T-14,Rayo Vallecano,6,13.5,2.8809720581775866,10,18,3.25,Desarrollo
+LL-T-15,Real Madrid,6,8.833333333333334,2.48327740429189,6,13,2.5,Desarrollo
+LL-T-16,Real Sociedad,6,12.5,4.230839160261236,8,19,5.5,Desarrollo
+LL-T-17,Sevilla FC,6,15.166666666666666,4.215052391924289,8,20,3.75,Desarrollo
+LL-T-18,Valencia CF,6,10.833333333333334,4.445971959725642,5,17,5.75,Desarrollo
+LL-T-2,Atlético de Madrid,6,11.333333333333334,4.457203906785808,6,17,6.75,Desarrollo
+LL-T-20,Villarreal,6,11.0,3.0983866769659336,7,14,5.25,Desarrollo
+LL-T-21,Deportivo Alavés,6,13.666666666666666,3.559026084010437,7,17,2.5,Desarrollo
+LL-T-26,Deportivo de La Coruña,6,13.5,2.7386127875258306,9,17,2.25,Desarrollo
+LL-T-3,Athletic Club,5,10.6,4.159326868617084,6,17,3.0,Desarrollo
+LL-T-4,FC Barcelona,6,9.333333333333334,3.559026084010437,4,13,4.75,Desarrollo
+LL-T-49,Racing de Santander,6,14.833333333333334,2.1369760566432805,12,17,3.5,Desarrollo
+LL-T-5,Real Betis,6,9.833333333333334,2.228601953392904,7,13,2.75,Desarrollo
+LL-T-6,Celta de Vigo,6,10.333333333333334,3.559026084010437,7,17,2.5,Desarrollo
+LL-T-7,Elche CF,6,14.333333333333334,4.633213427705081,9,21,5.5,Desarrollo
+LL-T-8,RCD Espanyol,6,17.666666666666668,3.559026084010437,14,24,3.0,Desarrollo
+LL-T-9,Getafe CF,6,14.5,5.205766033928148,8,24,0.75,Desarrollo
+LL-T-11,Levante UD,3,9.666666666666666,2.5166114784235836,7,12,2.5,Contraste temporal
+LL-T-12,Málaga CF,3,10.0,6.0,4,16,6.0,Contraste temporal
+LL-T-13,Osasuna,3,18.333333333333332,4.618802153517007,13,21,4.0,Contraste temporal
+LL-T-14,Rayo Vallecano,2,11.0,2.8284271247461903,9,13,2.0,Contraste temporal
+LL-T-15,Real Madrid,3,8.0,2.0,6,10,2.0,Contraste temporal
+LL-T-16,Real Sociedad,3,11.666666666666666,2.516611478423583,9,14,2.5,Contraste temporal
+LL-T-17,Sevilla FC,3,13.666666666666666,3.5118845842842465,10,17,3.5,Contraste temporal
+LL-T-18,Valencia CF,3,11.0,2.6457513110645907,9,14,2.5,Contraste temporal
+LL-T-2,Atlético de Madrid,3,14.0,5.0,9,19,5.0,Contraste temporal
+LL-T-20,Villarreal,3,11.333333333333334,2.0816659994661326,9,13,2.0,Contraste temporal
+LL-T-21,Deportivo Alavés,3,13.666666666666666,3.0550504633038935,11,17,3.0,Contraste temporal
+LL-T-26,Deportivo de La Coruña,3,12.0,5.5677643628300215,6,17,5.5,Contraste temporal
+LL-T-3,Athletic Club,2,14.5,2.1213203435596424,13,16,1.5,Contraste temporal
+LL-T-4,FC Barcelona,3,10.333333333333334,1.1547005383792515,9,11,1.0,Contraste temporal
+LL-T-49,Racing de Santander,3,11.666666666666666,3.055050463303893,9,15,3.0,Contraste temporal
+LL-T-5,Real Betis,3,10.0,1.0,9,11,1.0,Contraste temporal
+LL-T-6,Celta de Vigo,3,16.0,4.358898943540674,13,21,4.0,Contraste temporal
+LL-T-7,Elche CF,3,11.666666666666666,6.429100507328636,7,19,6.0,Contraste temporal
+LL-T-8,RCD Espanyol,3,13.0,2.6457513110645907,10,15,2.5,Contraste temporal
+LL-T-9,Getafe CF,3,13.0,2.6457513110645907,11,16,2.5,Contraste temporal
+LL-T-11,Levante UD,8,9.875,2.03100960115899,7,12,2.75,Temporada actual acumulada
+LL-T-12,Málaga CF,9,11.555555555555555,4.034572812303401,4,17,5.0,Temporada actual acumulada
+LL-T-13,Osasuna,9,14.666666666666666,4.387482193696061,9,21,5.0,Temporada actual acumulada
+LL-T-14,Rayo Vallecano,8,12.875,2.9001231500945415,9,18,3.5,Temporada actual acumulada
+LL-T-15,Real Madrid,9,8.555555555555555,2.242270674512285,6,13,3.0,Temporada actual acumulada
+LL-T-16,Real Sociedad,9,12.222222222222221,3.5978388574871505,8,19,5.0,Temporada actual acumulada
+LL-T-17,Sevilla FC,9,14.666666666666666,3.840572873934304,8,20,4.0,Temporada actual acumulada
+LL-T-18,Valencia CF,9,10.88888888888889,3.7564758898615485,5,17,5.0,Temporada actual acumulada
+LL-T-2,Atlético de Madrid,9,12.222222222222221,4.521553322083512,6,19,7.0,Temporada actual acumulada
+LL-T-20,Villarreal,9,11.11111111111111,2.6666666666666665,7,14,4.0,Temporada actual acumulada
+LL-T-21,Deportivo Alavés,9,13.666666666666666,3.2015621187164243,7,17,3.0,Temporada actual acumulada
+LL-T-26,Deportivo de La Coruña,9,13.0,3.6055512754639896,6,17,3.0,Temporada actual acumulada
+LL-T-3,Athletic Club,7,11.714285714285714,3.9880774697543058,6,17,5.0,Temporada actual acumulada
+LL-T-4,FC Barcelona,9,9.666666666666666,2.9154759474226504,4,13,2.0,Temporada actual acumulada
+LL-T-49,Racing de Santander,9,13.777777777777779,2.7738861628488727,9,17,4.0,Temporada actual acumulada
+LL-T-5,Real Betis,9,9.88888888888889,1.8333333333333335,7,13,2.0,Temporada actual acumulada
+LL-T-6,Celta de Vigo,9,12.222222222222221,4.549114687985393,7,21,5.0,Temporada actual acumulada
+LL-T-7,Elche CF,9,13.444444444444445,5.0525021304080395,7,21,10.0,Temporada actual acumulada
+LL-T-8,RCD Espanyol,9,16.11111111111111,3.8873012632302,10,24,3.0,Temporada actual acumulada
+LL-T-9,Getafe CF,9,14.0,4.387482193696061,8,24,2.0,Temporada actual acumulada

@@ -1,0 +1,20 @@
+{
+  "version": "faltas-canonicas-v1",
+  "objetivo": "Faltas cometidas por un equipo en el partido de liga completo: 90 minutos más descuento, sin prórroga ni penaltis de desempate.",
+  "unidad": "Recuento entero no negativo por equipo; total del partido = local + visitante.",
+  "semantica_recibidas_en_variables": "Es el recuento de faltas cometidas por el rival en ese encuentro. Es una variable derivada del espejo, no una medición independiente de faltas sufridas.",
+  "fuente_prioritaria": "Ficha de estadísticas del partido de LALIGA, identificando competición, temporada, equipos, localía y fecha.",
+  "fuente_complementaria": "Football-Data.co.uk: HF = faltas cometidas local, AF = faltas cometidas visitante; no usar HFKC/AFKC (tiros libres concedidos) ni sumar fueras de juego.",
+  "referencia_definiciones": "https://football-data.co.uk/notes.txt",
+  "adjudicacion": "Si ambas fuentes discrepan, conservar el par de cifras oficial documentado, registrar las dos versiones, URL, fecha de consulta y motivo. No escoger la cifra que haga menor el error del modelo. Si no puede verificarse, mantener estado pendiente explícito.",
+  "captura_estudio": "Captura privada del autor (no distribuida)",
+  "decision_estudio": "Se conservan las etiquetas de la captura privada del estudio y sus incidencias para comparar métodos sobre las mismas respuestas. No se certifican todas las fuentes.",
+  "contraste_dirigido": "La revisión muestral y sus limitaciones se documentan en docs/experimentos/cierre_auditoria.md.",
+  "correcciones_futuras": "Crear una versión nueva con evidencia y registro de valores antiguos/nuevos. Recalcular variables y desarrollo si afecta a su preparación. No sustituir silenciosamente la captura ni corregir etiquetas según los errores del test.",
+  "reserva": "No elegir etiquetas o correcciones para favorecer las métricas de un modelo; registrar fuentes e incidencias.",
+  "limitaciones": [
+    "La comprobación externa es muestral; no se declaran verificados todos los partidos.",
+    "Inicio + 24 horas es un supuesto de disponibilidad para el backtest, no una publicación histórica acreditada.",
+    "Las condiciones de liquidación de una casa de apuestas no forman parte de esta definición ni se han contrastado."
+  ]
+}

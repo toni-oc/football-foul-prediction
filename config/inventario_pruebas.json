@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "nombre": "Objetivo y seis tablas",
+    "notebook": "01_datos_y_variables.ipynb",
+    "seccion": "datos",
+    "hipotesis": "Evitar ambigüedad del objetivo y uniones inconsistentes",
+    "prueba": "Validaciones de tipos, claves, pares y suma de faltas",
+    "decision": "Contrato CSV explícito; estadísticas del propio encuentro excluidas",
+    "codigo_y_evidencia": "src/faltas/datos.py; src/faltas/preparacion.py"
+  },
+  {
+    "id": 2,
+    "nombre": "Calidad y fuentes",
+    "notebook": "01_datos_y_variables.ipynb",
+    "seccion": "fuentes",
+    "hipotesis": "Establecer qué etiqueta se evalúa y sus límites",
+    "prueba": "Política de etiquetas y contraste dirigido de cuatro incidencias",
+    "decision": "Captura congelada; desacuerdos documentados y pendientes visibles",
+    "codigo_y_evidencia": "config/experimentos/politica_etiquetas.json; docs/experimentos/cierre_auditoria.md"
+  },
+  {
+    "id": 3,
+    "nombre": "Distribución temporal de las muestras",
+    "notebook": "01_datos_y_variables.ipynb",
+    "seccion": "temporal",
+    "hipotesis": "Priorizar actualidad y medir futuras emisiones sin mezcla aleatoria",
+    "prueba": "59 partidos de desarrollo, 29 de contraste temporal y 380 anteriores complementarios",
+    "decision": "Corte por inicio; disponibilidad estricta; exposición retrospectiva reconocida",
+    "codigo_y_evidencia": "src/faltas/investigacion/recorrido.py (cortes); docs/experimentos/evaluacion_temporal.md"
+  },
+  {
+    "id": 4,
+    "nombre": "EDA completo",
+    "notebook": "01_datos_y_variables.ipynb",
+    "seccion": "eda",
+    "hipotesis": "Conocer distribución, localía, estilo y calidad sin usar test",
+    "prueba": "15 tablas y tres figuras sobre los antecedentes del último corte de desarrollo",
+    "decision": "Mantener extremos, ausencias y tamaños; asociaciones posteriores solo descriptivas",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/exploracion.py; reports/investigacion/eda"
+  },
+  {
+    "id": 5,
+    "nombre": "Construcción de 108 variables",
+    "notebook": "01_datos_y_variables.ipynb",
+    "seccion": "variables",
+    "hipotesis": "Representar actualidad, equipo y rival antes del encuentro",
+    "prueba": "Fichas en su propio corte, con medias y conteos previos",
+    "decision": "Generador común a entrenamiento y consulta",
+    "codigo_y_evidencia": "src/faltas/variables.py; config/variables.json"
+  },
+  {
+    "id": 6,
+    "nombre": "Grupos temporales K2",
+    "notebook": "01_datos_y_variables.ipynb",
+    "seccion": "variables",
+    "hipotesis": "Comparar rivales similares sin proyectar perfiles actuales al pasado",
+    "prueba": "Reconstrucción en cada emisión, con tamaño mínimo y semilla fija",
+    "decision": "Separar de la clasificación manual retrospectiva",
+    "codigo_y_evidencia": "src/faltas/grupos.py; src/faltas/variables.py"
+  },
+  {
+    "id": 7,
+    "nombre": "Ausencias y categorías",
+    "notebook": "01_datos_y_variables.ipynb",
+    "seccion": "preparacion",
+    "hipotesis": "Evitar fuga en imputación, escala y vocabulario",
+    "prueba": "Preparadores nuevos en cada train y pruebas de categorías nuevas",
+    "decision": "Ceros reales y ausencias distintas; indicadores y fallbacks explícitos",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/pipeline.py; tests/test_contratos.py"
+  },
+  {
+    "id": 8,
+    "nombre": "Cuatro referencias",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "inicial",
+    "hipotesis": "Comprobar valor añadido frente a reglas sencillas",
+    "prueba": "Uniforme, recencia, localía y equipo/rival en mismos cortes",
+    "decision": "Las referencias pueden ganar; equipo/rival llega al seguimiento final",
+    "codigo_y_evidencia": "src/faltas/investigacion/recorrido.py (_referencias_corte); reports/investigacion/inicial"
+  },
+  {
+    "id": 9,
+    "nombre": "Tres candidatos iniciales",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "inicial",
+    "hipotesis": "Comparar GLM y árboles con dos pérdidas",
+    "prueba": "Poisson GLM, XGBoost Poisson y cuadrático con 108 entradas",
+    "decision": "Continuar con alternativas regularizadas; sin proclamar superioridad",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/entrenamiento.py; config/experimentos/candidatos.json"
+  },
+  {
+    "id": 10,
+    "nombre": "Regularización y complejidad",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "ajuste",
+    "hipotesis": "Reducir varianza y controlar ajuste",
+    "prueba": "Once configuraciones ML: tres iniciales y ocho alternativas",
+    "decision": "Ranking por RMSE actual y criterios predefinidos",
+    "codigo_y_evidencia": "src/faltas/investigacion/recorrido.py (_global_corte); config/experimentos/ajuste.json"
+  },
+  {
+    "id": 11,
+    "nombre": "Pesos de filas aislados",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "ajuste",
+    "hipotesis": "Contrastar más/menos recencia en la pérdida",
+    "prueba": "65/22/9/4 y 51/29/14/6, manteniendo las medias de X base",
+    "decision": "No confundir con la posterior revisión conjunta de nueve políticas",
+    "codigo_y_evidencia": "config/experimentos/modelado.json; docs/experimentos/comparacion_ajustes.md"
+  },
+  {
+    "id": 12,
+    "nombre": "Ablación de grupos",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "ajuste",
+    "hipotesis": "Medir el bloque de grupos con la misma receta base",
+    "prueba": "Retirar categorías de grupo y entradas vs_grupo",
+    "decision": "Conservar global 93 por desarrollo; no declarar inútiles los grupos siempre",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/comparacion.py (configurar_experimento); reports/investigacion/ajuste"
+  },
+  {
+    "id": 13,
+    "nombre": "Doce variantes reducidas",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "reducidos",
+    "hipotesis": "Reducir ruido sin perder el contexto del rival",
+    "prueba": "Núcleos 7/13, GLM/árboles, pareja, análogos y manuales",
+    "decision": "Reducción no mejora automáticamente; conservar descartes",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/reducidos.py; config/experimentos/reducidos.json"
+  },
+  {
+    "id": 14,
+    "nombre": "Selector interno de cinco",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "reducidos",
+    "hipotesis": "Elegir por aportación medida sin consultar la validación exterior",
+    "prueba": "Permutación en validación interna cronológica, con frecuencias y aumentos RMSE",
+    "decision": "No se adopta como motor final; importancia condicionada a receta/correlaciones",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/reducidos.py (seleccionar_cinco); reports/investigacion/reducidos"
+  },
+  {
+    "id": 15,
+    "nombre": "Lista manual de seis clubes",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "reducidos",
+    "hipotesis": "Contrastar simplificación solicitada de perfiles",
+    "prueba": "Dos ramas exploratorias con lista fija 6/resto",
+    "decision": "Retrospectiva y separada del ranking temporal estricto",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/reducidos.py (crear_perfiles); config/experimentos/reducidos.json"
+  },
+  {
+    "id": 16,
+    "nombre": "Diez variantes contextuales",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "contextuales",
+    "hipotesis": "Aprender contexto por perfil de ambos equipos y rivales",
+    "prueba": "Bloques 18/26/28/32 y ajuste global o por pareja",
+    "decision": "Conservar local_perfil_directos como alternativa al global",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/contextuales.py; config/experimentos/contextuales.json"
+  },
+  {
+    "id": 17,
+    "nombre": "Analogía continua",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "contextuales",
+    "hipotesis": "Graduar similitud de estilo sin usar faltas de la consulta",
+    "prueba": "Escala robusta solo de historial, penalizaciones y suelo de afinidad",
+    "decision": "Se conserva su resultado; no mejora por definición",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/contextuales.py (afinidad_contextual); construir_contextuales"
+  },
+  {
+    "id": 18,
+    "nombre": "Auditoría independiente",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "equilibrio",
+    "hipotesis": "Buscar problemas no detectados por quien implementó",
+    "prueba": "Revisión externa focalizada, soporte e integridad",
+    "decision": "Reconocer masa desigual entre clubes y límites de fuentes",
+    "codigo_y_evidencia": "docs/experimentos/auditoria_independiente.md"
+  },
+  {
+    "id": 19,
+    "nombre": "Equilibrio entre clubes",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "equilibrio",
+    "hipotesis": "Evitar dominio por cantidad de registros de un club",
+    "prueba": "Una hipótesis: masa igual, proporciones internas intactas",
+    "decision": "Mejora pequeña actual; no consistente antes; llevar ambos modos a rejilla",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/equilibrio.py; reports/investigacion/equilibrio"
+  },
+  {
+    "id": 20,
+    "nombre": "144 configuraciones XGBoost",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "rejilla",
+    "hipotesis": "Comparar hiperparámetros en un espacio prefijado",
+    "prueba": "48 globales +48 pareja por registros +48 equilibrada",
+    "decision": "Congelar global_030 y pareja_equilibrada_024; referencias conservadas",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/grid_temporal.py; config/rejilla_historica.json"
+  },
+  {
+    "id": 21,
+    "nombre": "380 partidos anteriores",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "confirmacion",
+    "hipotesis": "Describir estabilidad temporal de las alternativas seleccionadas",
+    "prueba": "17 ramas únicas realmente contrastadas, no una nueva búsqueda",
+    "decision": "Prioridad del actual; histórico complementario con tamaños separados",
+    "codigo_y_evidencia": "config/confirmaciones_historicas.json; src/faltas/investigacion/recorrido.py (evaluar_etapa)"
+  },
+  {
+    "id": 22,
+    "nombre": "Bootstrap y errores grandes",
+    "notebook": "02_modelos_y_experimentos.ipynb",
+    "seccion": "ajuste",
+    "hipotesis": "Cuantificar incertidumbre y concentración del error",
+    "prueba": "Remuestreo de partidos completos, cinco peores y segmentos",
+    "decision": "Intervalos descriptivos incluyen cero; no borran extremos ni prueban superioridad",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/comparacion.py (comparar_pareado); reports/investigacion/ajuste"
+  },
+  {
+    "id": 23,
+    "nombre": "Contraste temporal",
+    "notebook": "03_resultados_y_cierre.ipynb",
+    "seccion": "test",
+    "hipotesis": "Evaluar recetas cerradas con pesos iniciales",
+    "prueba": "29 partidos del contraste, 58 observaciones por método; predicciones secuenciales",
+    "decision": "Comparación de recetas y controles; contraste retrospectivo y con muestra pequeña",
+    "codigo_y_evidencia": "src/faltas/evaluacion.py; reports/investigacion/contraste"
+  },
+  {
+    "id": 24,
+    "nombre": "Errores por equipo en tres muestras",
+    "notebook": "03_resultados_y_cierre.ipynb",
+    "seccion": "equipos",
+    "hipotesis": "Detectar heterogeneidad sin mezclar selección y test",
+    "prueba": "Desarrollo, contraste temporal y acumulado; tres métodos con n por club",
+    "decision": "Diagnóstico secundario; no elegir algoritmo para cada club",
+    "codigo_y_evidencia": "src/faltas/entrega.py (diagnosticos_actuales); reports/actualizacion_v1"
+  },
+  {
+    "id": 25,
+    "nombre": "Variabilidad real",
+    "notebook": "03_resultados_y_cierre.ipynb",
+    "seccion": "variabilidad",
+    "hipotesis": "Separar inestabilidad observada y error del modelo",
+    "prueba": "Media, desviación ddof=1, rango e IQR por club y muestra",
+    "decision": "No interpretar MAE como sigma; n pequeño y dispersión no estimable con uno",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/diagnostico_equipos.py; src/faltas/entrega.py (diagnosticos_actuales)"
+  },
+  {
+    "id": 26,
+    "nombre": "Sesgo y asimetría",
+    "notebook": "03_resultados_y_cierre.ipynb",
+    "seccion": "sesgo",
+    "hipotesis": "Distinguir dirección, frecuencia y magnitud del error",
+    "prueba": "Media, mediana, porcentajes, exceso/defecto, cuantiles y Fisher",
+    "decision": "Sin corregir automáticamente las predicciones ni asumir normalidad",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/analisis_cierre.py (resumir_sesgos); reports/actualizacion_v1"
+  },
+  {
+    "id": 27,
+    "nombre": "Contexto y localía",
+    "notebook": "03_resultados_y_cierre.ipynb",
+    "seccion": "contextos",
+    "hipotesis": "Ver dónde cambia el error frente a la referencia",
+    "prueba": "Cruce de grupos y papel/localía, separados por muestra",
+    "decision": "Solo descripción; grupos previos y Sin perfil conservado",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/analisis_cierre.py (resumir_contextos)"
+  },
+  {
+    "id": 28,
+    "nombre": "Discriminación de las predicciones",
+    "notebook": "03_resultados_y_cierre.ipynb",
+    "seccion": "discriminacion",
+    "hipotesis": "Comprobar si predicciones altas anticipan resultados altos",
+    "prueba": "Terciles comunes de desarrollo, aplicados sin cambios al contraste; Pearson y Spearman",
+    "decision": "Examinar la ordenación en el contraste; dispersar más no implica mejorar",
+    "codigo_y_evidencia": "src/faltas/investigacion/metodos/analisis_cierre.py (limites_tramos); resumir_discriminacion"
+  },
+  {
+    "id": 29,
+    "nombre": "Tres casos, ambos XGBoost",
+    "notebook": "03_resultados_y_cierre.ipynb",
+    "seccion": "casos",
+    "hipotesis": "Entender un acierto, un error grande y un desacuerdo",
+    "prueba": "Tres partidos reales distintos del acumulado; seis refits y doce salidas explicadas",
+    "decision": "Reproducción y aditividad; explicación sin interpretación causal",
+    "codigo_y_evidencia": "src/faltas/entrega.py (explicar_casos_actuales); src/faltas/investigacion/metodos/explicaciones_cierre.py"
+  },
+  {
+    "id": 30,
+    "nombre": "Nueve políticas de temporada",
+    "notebook": "03_resultados_y_cierre.ipynb",
+    "seccion": "pesos",
+    "hipotesis": "Medir otras masas con recetas fijas",
+    "prueba": "Nueve combinaciones, tres métodos y tres muestras",
+    "decision": "35/35/20/10 común por media RMSE de desarrollo; contraste posterior no independiente",
+    "codigo_y_evidencia": "src/faltas/experimentos.py (probar_politicas); reports/investigacion/pesos/metricas.csv"
+  },
+  {
+    "id": 31,
+    "nombre": "Elección y límites finales",
+    "notebook": "03_resultados_y_cierre.ipynb",
+    "seccion": "eleccion",
+    "hipotesis": "Elegir un método para la consulta sin ocultar limitaciones",
+    "prueba": "RMSE, MAE e ID; global menor RMSE, referencia menor MAE agregado",
+    "decision": "Una salida operativa; seguimiento de tres recetas y validación futura pendiente",
+    "codigo_y_evidencia": "evaluacion.recomendar_modelo; docs/metodologia.md"
+  },
+  {
+    "id": 32,
+    "nombre": "Consulta individual",
+    "notebook": "04_consultar_partido.ipynb",
+    "seccion": "consulta",
+    "hipotesis": "Aplicar la receta elegida con el historial actualizado",
+    "prueba": "API común, corte real o recreación explícita; error histórico y sesgo",
+    "decision": "Un partido; selección manual 1 Global, 2 Pareja, 3 Referencia o 4 Comparar los tres con la misma emisión; no modifica hojas ni añade mercados",
+    "codigo_y_evidencia": "consulta.consultar_modelos; modelos.predecir_partido; evaluacion.informe_partido"
+  }
+]

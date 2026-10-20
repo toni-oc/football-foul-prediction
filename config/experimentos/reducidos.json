@@ -1,0 +1,308 @@
+{
+  "version": "reducidos-v1",
+  "temporada_actual": "2026/27",
+  "temporada_anterior": "2025/26",
+  "grupo_manual_1": [
+    "FC Barcelona",
+    "Real Madrid",
+    "Atlético de Madrid",
+    "Real Betis",
+    "Villarreal",
+    "Athletic Club"
+  ],
+  "grupo_manual": "Hipótesis fija 6/resto solicitada por el usuario. Exploración retrospectiva; no se presenta como clustering conocido en cada fecha ni compite en el ranking temporal estricto.",
+  "factor_similaridad": 2.0,
+  "min_observaciones_locales": 8,
+  "semilla": 42,
+  "seleccion": {
+    "max_variables": 5,
+    "partidos_validacion_interna": 40,
+    "repeticiones": 3,
+    "criterio": "Mayor aumento de RMSE ponderado al permutar cada columna en validación interna cronológica. Cinco entradas; posibles correlaciones y ruido, sin interpretación causal."
+  },
+  "presupuesto": "12 variantes fijadas antes de consultar nuevos resultados: cuatro generales de 7/13 entradas, selector interno de cinco, dos pruebas de grupo manual exploratorias (general y pareja), cuatro modelos por pareja de 8/14 entradas (incluyen identidad de los dos clubes) y referencia local de análogos. Todos los 59 partidos actuales; confirmar el mejor general estricto y la mejor estrategia de pareja en los 380 anteriores. Sin ampliar rejilla ni abrir test.",
+  "criterio": "RMSE actual por equipo; MAE actual para desempatar. La confirmación anterior describe estabilidad; no cambia la prioridad actual. La hipótesis manual queda separada.",
+  "politica_filas": "actualidad_base",
+  "experimentos": [
+    {
+      "id": "general_nucleo7_poisson",
+      "ambito": "general",
+      "perfil": "nucleo7",
+      "candidato": {
+        "familia": "poisson",
+        "escalar": true,
+        "parametros": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "tol": 1e-06,
+          "warm_start": false
+        }
+      },
+      "similares": false
+    },
+    {
+      "id": "general_nucleo7_xgboost",
+      "ambito": "general",
+      "perfil": "nucleo7",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 2,
+          "min_child_weight": 5,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "similares": false
+    },
+    {
+      "id": "general_contexto13_poisson",
+      "ambito": "general",
+      "perfil": "contexto13",
+      "candidato": {
+        "familia": "poisson",
+        "escalar": true,
+        "parametros": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "tol": 1e-06,
+          "warm_start": false
+        }
+      },
+      "similares": false
+    },
+    {
+      "id": "general_contexto13_xgboost",
+      "ambito": "general",
+      "perfil": "contexto13",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 2,
+          "min_child_weight": 5,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "similares": false
+    },
+    {
+      "id": "pareja_nucleo7_poisson",
+      "ambito": "pareja",
+      "perfil": "nucleo7",
+      "candidato": {
+        "familia": "poisson",
+        "escalar": true,
+        "parametros": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "tol": 1e-06,
+          "warm_start": false
+        }
+      },
+      "similares": false
+    },
+    {
+      "id": "pareja_nucleo7_xgboost",
+      "ambito": "pareja",
+      "perfil": "nucleo7",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 2,
+          "min_child_weight": 5,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "similares": false
+    },
+    {
+      "id": "pareja_contexto13_poisson",
+      "ambito": "pareja",
+      "perfil": "contexto13",
+      "candidato": {
+        "familia": "poisson",
+        "escalar": true,
+        "parametros": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "tol": 1e-06,
+          "warm_start": false
+        }
+      },
+      "similares": true
+    },
+    {
+      "id": "pareja_contexto13_xgboost",
+      "ambito": "pareja",
+      "perfil": "contexto13",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 2,
+          "min_child_weight": 5,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "similares": true
+    },
+    {
+      "id": "general_seleccion5",
+      "ambito": "general",
+      "perfil": "contexto13",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 2,
+          "min_child_weight": 5,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "seleccion_5": true
+    },
+    {
+      "id": "general_manual13",
+      "ambito": "general",
+      "perfil": "manual13",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 2,
+          "min_child_weight": 5,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      }
+    },
+    {
+      "id": "pareja_analogos",
+      "ambito": "pareja",
+      "perfil": "contexto13",
+      "metodo": "analogos",
+      "similares": true
+    },
+    {
+      "id": "pareja_manual13_xgboost",
+      "ambito": "pareja",
+      "perfil": "manual13",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 2,
+          "min_child_weight": 5,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      },
+      "similares": true
+    }
+  ],
+  "origen_grupos_manuales": {
+    "archivo": "Clasificación manual exploratoria conservada en grupo_manual_1; no se necesita el archivo personal original",
+    "sha256": "6a474826140f5b629f21e2c2fbb73199199321928096ba5dbb77789b03381d6f",
+    "fecha_corte_original": "2026-10-16",
+    "clasificacion": "6 equipos grupo 1 / resto grupo 2"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "version": "grid-temporal-v1",
+  "fecha_fijacion_utc": "2026-10-17T17:14:11.018956+00:00",
+  "rejilla": {
+    "n_estimators": [
+      100,
+      200
+    ],
+    "learning_rate": [
+      0.03,
+      0.05,
+      0.1
+    ],
+    "max_depth": [
+      2,
+      3
+    ],
+    "min_child_weight": [
+      5,
+      10
+    ],
+    "reg_lambda": [
+      10.0,
+      20.0
+    ]
+  },
+  "combinaciones_por_receta": 48,
+  "estrategias": [
+    {
+      "id": "global93",
+      "ambito": "global",
+      "masa_clubes": null,
+      "columnas": 93
+    },
+    {
+      "id": "pareja29_original",
+      "ambito": "pareja",
+      "masa_clubes": "por_registros",
+      "columnas": 29
+    },
+    {
+      "id": "pareja29_equilibrada",
+      "ambito": "pareja",
+      "masa_clubes": "igual_por_club",
+      "columnas": 29
+    }
+  ],
+  "total_configuraciones": 144,
+  "invariantes": "Entradas, objetivo count:poisson, colsample .8, alpha 0, subsample 1, delta .7, semilla42, CPU 1 hilo. No early stopping ni ajuste de recencia.",
+  "recencia": {
+    "politica": "actualidad_base",
+    "masas_temporadas": [
+      0.55,
+      0.25,
+      0.13,
+      0.07
+    ],
+    "semivida_dias": 90
+  },
+  "muestra_primaria": "Los mismos 59 partidos 2026/27 de desarrollo, 57 cortes cronológicos completos. Ambos equipos juntos; disponibilidad estrictamente anterior y emisión 1h antes.",
+  "seleccion": "Por cada una de las tres estrategias: menor RMSE conjunto por equipo actual; después MAE; después menor n_estimators*2**max_depth; finalmente ID. Comparaciones sin redondeo. Para familia pareja elegir entre sus dos ganadores con el mismo orden.",
+  "muestra_secundaria": "Evaluar solo los tres ganadores ya elegidos en los 380 partidos 2025/26 de desarrollo, sin cambiar selección por ese resultado.",
+  "validacion": "Error fuera de muestra del desarrollo, no entrenamiento. RMSE combinado de todas las salidas, no promedio sin ponderar de RMSE por fold.",
+  "preparacion": "Medianas, categorías y ausencias ajustadas solo al train de cada corte/pareja. Reutilizar la preparación entre hiperparámetros del mismo train, pues no depende de ellos ni de y de evaluación.",
+  "pesos_pareja": "Preservar recencia por temporada dentro de cada club y afinidad contextual. Comparar las dos políticas de masa ya existentes, sin añadir nuevas.",
+  "test": {
+    "utilizado": false,
+    "X_test_construida": false,
+    "autorizado": false,
+    "partidos_reservados": 29
+  },
+  "presupuesto": "48 combinaciones cartesianas por estrategia, 144 recetas. Evaluar todas; no ampliar ni cambiar la rejilla tras conocer métricas.",
+  "decision": "Mantener originales y cierre previo intactos. Emitir selección adicional sellada, con una receta por familia global/pareja para la futura evaluación final. No sobrescribir los valores por defecto ni abrir test.",
+  "limitacion": "Desarrollo consultado repetidamente: la mejora seleccionada es exploratoria y puede ser optimista. El contraste temporal no es una prueba ciega independiente de toda la exploración.",
+  "procesos": 2,
+  "semilla": 42
+}

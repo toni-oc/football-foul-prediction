@@ -1,0 +1,31 @@
+{
+  "globales": [
+    "poisson_glm",
+    "xgb_cuadratico",
+    "xgb_poisson",
+    "xgb_poisson_moderada",
+    "xgb_poisson_sin_grupos"
+  ],
+  "referencias": [
+    "equipo_rival_previo",
+    "liga_localia_previa",
+    "media_global_recencia",
+    "media_global_uniforme"
+  ],
+  "reducidos": [
+    "general_nucleo7_poisson",
+    "pareja_analogos"
+  ],
+  "contextuales": [
+    "global_perfil_localia",
+    "local_perfil_directos"
+  ],
+  "equilibrio": [
+    "local_perfil_directos_equilibrado"
+  ],
+  "rejilla": [
+    "grid_global93_030",
+    "grid_pareja29_equilibrada_024",
+    "grid_pareja29_original_012"
+  ]
+}

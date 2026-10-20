@@ -1,0 +1,8 @@
+{
+  "emision_antes_minutos": 60,
+  "retardo_historico_horas": 24,
+  "metrica_principal": "RMSE",
+  "desempate": "MAE",
+  "ventana_operativa": "temporada_actual_disponible",
+  "naturaleza": "evaluación retrospectiva con recetas ya seleccionadas; requiere seguimiento futuro"
+}

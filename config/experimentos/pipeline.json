@@ -1,0 +1,27 @@
+{
+  "version": "pipeline-v1",
+  "numericas": "Mediana ordinaria estimada solo con el entrenamiento del corte",
+  "indicadores": "Uno por cada numérica, también si estaba completa; conserva el caso de ausencia nueva",
+  "totalmente_vacias": "Excluir valor en ese ajuste, conservar indicador; no existe mediana estimable",
+  "categoricas": "One-hot con vocabulario aprendido solo en train; niveles explícitos __AUSENTE__ y __NUEVA__",
+  "categorias_reservadas": [
+    "__AUSENTE__",
+    "__NUEVA__"
+  ],
+  "escalado": "Opcional según candidato; se aprende en train. Desactivado en inspección y auditoría de fase 6",
+  "pesos": "modelo__sample_weight en la pérdida; sin mediana ponderada ni pesos en las métricas de validación",
+  "sin_seleccion_ni_recorte": true,
+  "referencias": [
+    "media_global_uniforme",
+    "media_global_recencia",
+    "liga_localia_previa",
+    "equipo_rival_previo"
+  ],
+  "combinacion_equipo_rival": [
+    0.5,
+    0.5
+  ],
+  "ausencias_referencias": "Componente ausente a liga ponderada por localía; después localía del fit y global del fit",
+  "politicas": "Las medias previas usan config/variables.json; pesos de fit usan política de demostración de config/modelado.json. Sin selección en esta fase.",
+  "evaluacion": "Objetos de preparación nuevos en cada corte temporal, aprendidos solo del entrenamiento; las respuestas propias de la consulta quedan fuera."
+}

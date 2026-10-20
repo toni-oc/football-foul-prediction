@@ -1,0 +1,29 @@
+# Entornos y compilación
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.build/
+build/
+dist/
+.release/
+# Datos reales y ejecuciones locales
+data/local/**
+!data/local/README.md
+artifacts/
+tests/fixtures/
+# Salidas individuales que una ejecución local podría generar
+reports/**/metricas_cortes.csv
+reports/**/caso_*.png
+reports/**/predicciones*.csv
+reports/**/contribuciones*.csv
+reports/**/fichas_previas*.csv
+reports/**/control_casos*.csv
+reports/**/soporte_casos*.csv
+# Credenciales y archivos personales
+.env
+.secrets/
+.DS_Store
+Thumbs.db

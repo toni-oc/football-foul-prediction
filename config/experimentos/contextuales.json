@@ -1,0 +1,274 @@
+{
+  "version": "contextuales-v1",
+  "temporada_actual": "2026/27",
+  "temporada_anterior": "2025/26",
+  "min_observaciones_locales": 8,
+  "analogia": {
+    "escala_minima": [
+      5.0,
+      5.0,
+      0.35,
+      0.35
+    ],
+    "penalizacion_localia": 0.5,
+    "penalizacion_grupo": 0.5,
+    "distancia_maxima_cuadrada": 9.0,
+    "suelo": 0.25
+  },
+  "comparadores": [
+    "xgb_poisson_sin_grupos",
+    "general_nucleo7_poisson",
+    "general_contexto13_poisson",
+    "pareja_nucleo7_xgboost",
+    "pareja_contexto13_xgboost",
+    "equipo_rival_previo"
+  ],
+  "presupuesto": "Diez variantes prefijadas, evaluadas en los 88 encuentros: selección con los 59 de desarrollo y contraste descriptivo en los 29 posteriores. Diecisiete ramas del estudio tienen contraste complementario en la temporada anterior.",
+  "criterio": "RMSE por equipo en desarrollo actual; MAE para desempatar. Exploración acumulada, no evaluación independiente.",
+  "experimentos": [
+    {
+      "id": "global_perfil_localia",
+      "ambito": "general",
+      "perfil": "perfil_localia",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      }
+    },
+    {
+      "id": "global_perfil_grupos",
+      "ambito": "general",
+      "perfil": "perfil_grupos",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      }
+    },
+    {
+      "id": "global_perfil_directos",
+      "ambito": "general",
+      "perfil": "perfil_directos",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      }
+    },
+    {
+      "id": "global_perfil_analogos",
+      "ambito": "general",
+      "perfil": "perfil_analogos",
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      }
+    },
+    {
+      "id": "global_perfil_directos_poisson",
+      "ambito": "general",
+      "perfil": "perfil_directos",
+      "candidato": {
+        "familia": "poisson",
+        "escalar": true,
+        "parametros": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "tol": 1e-06,
+          "warm_start": false
+        }
+      }
+    },
+    {
+      "id": "global_perfil_analogos_poisson",
+      "ambito": "general",
+      "perfil": "perfil_analogos",
+      "candidato": {
+        "familia": "poisson",
+        "escalar": true,
+        "parametros": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "tol": 1e-06,
+          "warm_start": false
+        }
+      }
+    },
+    {
+      "id": "local_perfil_directos",
+      "ambito": "pareja",
+      "perfil": "perfil_directos",
+      "afinidad_filas": true,
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      }
+    },
+    {
+      "id": "local_perfil_analogos",
+      "ambito": "pareja",
+      "perfil": "perfil_analogos",
+      "afinidad_filas": true,
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "min_child_weight": 10,
+          "reg_lambda": 10.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 0.8,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      }
+    },
+    {
+      "id": "local_analogos_simple",
+      "ambito": "pareja",
+      "perfil": "perfil_analogos",
+      "afinidad_filas": true,
+      "candidato": {
+        "familia": "xgboost",
+        "escalar": false,
+        "parametros": {
+          "objective": "count:poisson",
+          "n_estimators": 100,
+          "learning_rate": 0.05,
+          "max_depth": 2,
+          "min_child_weight": 5,
+          "reg_lambda": 5.0,
+          "reg_alpha": 0.0,
+          "subsample": 1.0,
+          "colsample_bytree": 1.0,
+          "max_delta_step": 0.7,
+          "tree_method": "hist",
+          "device": "cpu",
+          "n_jobs": 1,
+          "random_state": 42,
+          "verbosity": 0,
+          "validate_parameters": true
+        }
+      }
+    },
+    {
+      "id": "local_analogos_poisson",
+      "ambito": "pareja",
+      "perfil": "perfil_analogos",
+      "afinidad_filas": true,
+      "candidato": {
+        "familia": "poisson",
+        "escalar": true,
+        "parametros": {
+          "alpha": 1.0,
+          "fit_intercept": true,
+          "solver": "lbfgs",
+          "max_iter": 1000,
+          "tol": 1e-06,
+          "warm_start": false
+        }
+      }
+    }
+  ]
+}

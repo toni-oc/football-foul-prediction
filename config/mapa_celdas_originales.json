@@ -1,0 +1,2138 @@
+[
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 0,
+    "tipo": "markdown",
+    "source_sha256": "aa4ed6bc9094e8d5e7356b462d59551062d8406225794f6daf47adc102b3ef18",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 1,
+    "tipo": "code",
+    "source_sha256": "9701069641543af4dd172271e372f3ebc556a697454331a991676b014fd99fed",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 2,
+    "tipo": "markdown",
+    "source_sha256": "624254ee00fa580a23048730b71ce783ca1650d04e38bbb66037e309284dc1ee",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 3,
+    "tipo": "code",
+    "source_sha256": "ca19b3a91e3750b8201b7386bc5c97b9496d3f14b6051549c0be4d995c62d893",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 4,
+    "tipo": "markdown",
+    "source_sha256": "f166bcdc11ee99ee32a88a5739d915fdce92d7ae091d310de26dd0c03514a790",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 5,
+    "tipo": "code",
+    "source_sha256": "bb031df2e11de062b23d78289908f7ecbb8ce281e605beafe7b1f098ee03d5d4",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 6,
+    "tipo": "markdown",
+    "source_sha256": "d8548b5310ec82c3dcbe5d1f76179ec56475801a5efa487c94dd5b012733a35e",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 7,
+    "tipo": "code",
+    "source_sha256": "cc6abe8c453be116dea597e1e58872728e3a04427b404a593000ee09af77a1ca",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 8,
+    "tipo": "markdown",
+    "source_sha256": "ed14dc3b99e75f5e443d309c48f1f469eb23385698c5ae04d351a5e06aed31a6",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 9,
+    "tipo": "code",
+    "source_sha256": "937576c25ce35ddef48d24fb0503476a4a1095e02acffc67ffc02e706b18e13a",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 10,
+    "tipo": "markdown",
+    "source_sha256": "67ce97bcadacbd042213e2270dd72cc576404424e2c7b5be502d5fb94bfb0a1b",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "cierre_auditoria_y_equilibrio.ipynb",
+    "celda_original": 11,
+    "tipo": "markdown",
+    "source_sha256": "843525fd907dac76fd633d7d3f3fb333ae7312aa1420a12a86f29dc8c1c1feb3",
+    "bloque_destino": "equilibrio",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 0,
+    "tipo": "markdown",
+    "source_sha256": "5d74112ba4b7acbe9b6bf07562b11901869981bfa0963926ecc6eeb968312605",
+    "bloque_destino": "equipos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 1,
+    "tipo": "code",
+    "source_sha256": "eab747cff5be057928e994dc5beaa4e7f70a72839131423547b7be0c4d9915a9",
+    "bloque_destino": "equipos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 2,
+    "tipo": "markdown",
+    "source_sha256": "7e871facff6512ac692b5faf9436fe939aa695669fc67382cacb3e802a8bf8a5",
+    "bloque_destino": "equipos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 3,
+    "tipo": "code",
+    "source_sha256": "12f46e7430057adae7d07842bcf3339bea66064b7507dcc95cd293c5a19df7a5",
+    "bloque_destino": "equipos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 4,
+    "tipo": "markdown",
+    "source_sha256": "46b40419cc4f7f8b86032af44595321608f676cccb01ce65145bc36efa6ba155",
+    "bloque_destino": "equipos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 5,
+    "tipo": "code",
+    "source_sha256": "aeb2986115b28c275bb2cde66dc231106cdb4d7f1d29cdd91fa9ec99a43de1c0",
+    "bloque_destino": "equipos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 6,
+    "tipo": "markdown",
+    "source_sha256": "b39675b26ad11cf6ad2747189a34411eae66068f95eb02e3ff2b5d73163abdb4",
+    "bloque_destino": "equipos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 7,
+    "tipo": "code",
+    "source_sha256": "875808169bf348bd6280d0f071158eee37e4ff0ac5747d1d5f5839e8e511a7d7",
+    "bloque_destino": "equipos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 8,
+    "tipo": "markdown",
+    "source_sha256": "5d5ad44f15aa2f516d7479dd29957234190214d1e742641eaf2a70e7746faa36",
+    "bloque_destino": "equipos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 9,
+    "tipo": "code",
+    "source_sha256": "e480fd8e54e9ccf621722ad9f378c374a8050465381f66add98b845225f6f3bf",
+    "bloque_destino": "equipos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 10,
+    "tipo": "markdown",
+    "source_sha256": "dcc809001ec55c07e6f1ad2636aedef2328f7581e3c6b2ad2cfef97d7a7ad138",
+    "bloque_destino": "variabilidad",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 11,
+    "tipo": "code",
+    "source_sha256": "af18e479664656dc8b3bad3ab800357751ca6c678478155f08ac4321dbacdcc0",
+    "bloque_destino": "variabilidad",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 12,
+    "tipo": "markdown",
+    "source_sha256": "fe9a88cf2ebbe9ea7612d889c8c17f1c658a244067ec821656a89c7212813cba",
+    "bloque_destino": "variabilidad",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 13,
+    "tipo": "code",
+    "source_sha256": "8bbe5bc888eb96c503635a56422b92b19f727c4771da07a77de0460c72a21e84",
+    "bloque_destino": "variabilidad",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 14,
+    "tipo": "markdown",
+    "source_sha256": "3d803864c64ffbb93f4299fc92195d3ba5d02a3e1b17aab09e034c24332a11e5",
+    "bloque_destino": "variabilidad",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 15,
+    "tipo": "markdown",
+    "source_sha256": "a23afad25e4f5ae0e51dc2a772dc6821d7bf83a038c90cc1e9f96f357447513f",
+    "bloque_destino": "sesgo",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 16,
+    "tipo": "code",
+    "source_sha256": "c11583e40a6ba0eec856956e126333a1310d565f726c46cd7768b33718d8b8c1",
+    "bloque_destino": "sesgo",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 17,
+    "tipo": "markdown",
+    "source_sha256": "b12fe9ef5851892e5209b52c8565cc561d787d37bb11efa9ff9b569db7d42a15",
+    "bloque_destino": "sesgo",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 18,
+    "tipo": "code",
+    "source_sha256": "ed6dbfdd94c9b2ea5e69e57aaa910c670611eb02445087bf3fc1b800c07cec6a",
+    "bloque_destino": "sesgo",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 19,
+    "tipo": "code",
+    "source_sha256": "35a7c6c6d782925ecd7e4d4b3ef06355605ca33e876adb26d40507585e9afff5",
+    "bloque_destino": "sesgo",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 20,
+    "tipo": "markdown",
+    "source_sha256": "eb9e58920503addc8667ef36b423cd096528ffcc23747f960f564900bca7df29",
+    "bloque_destino": "sesgo",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 21,
+    "tipo": "markdown",
+    "source_sha256": "984b03a4575235a5d0b5f6844945cd7221e3f9a7f703319a8c69779574972d8a",
+    "bloque_destino": "contextos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 22,
+    "tipo": "code",
+    "source_sha256": "b18591606d732a06c872d37bd048154b2cc065e035a38c4d9f004d8d243e10a3",
+    "bloque_destino": "contextos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 23,
+    "tipo": "code",
+    "source_sha256": "47bd581e53bce7baeb82e810f23147cc9bdb5f1c98c95f25c8cfd3ae6d7cc290",
+    "bloque_destino": "contextos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 24,
+    "tipo": "markdown",
+    "source_sha256": "ae991af6a5bf821cdb13d69145622eb79f5d8a996fd20a3d3b5749859370e4e6",
+    "bloque_destino": "contextos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 25,
+    "tipo": "markdown",
+    "source_sha256": "7e0d3ae9d2bc049a5c5f9c233a67375c6bdc34a453ef91c116344a8c983e9524",
+    "bloque_destino": "discriminacion",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 26,
+    "tipo": "code",
+    "source_sha256": "49f58fb5239fe221b053aefcb78ee8aeab262727d8880fe09b9d469967d8fa31",
+    "bloque_destino": "discriminacion",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 27,
+    "tipo": "code",
+    "source_sha256": "9dbc003730ccb06ba9e9462be56b74b2419c6fc5516dc38c01ee6ec7c1252e93",
+    "bloque_destino": "discriminacion",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 28,
+    "tipo": "markdown",
+    "source_sha256": "bae5702b4f8f2a8a13a944c4f7458192204d59bb289b35b7ad3b720a980a5b7d",
+    "bloque_destino": "discriminacion",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 29,
+    "tipo": "markdown",
+    "source_sha256": "68393a1dfa1d984f8b1016037f8be64ad5bb7ae898497286384e87e9acae2730",
+    "bloque_destino": "casos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 30,
+    "tipo": "markdown",
+    "source_sha256": "2a90c2b1e3cdd04784549d29db921a5f914e33003f714f2fddce7f53015460e2",
+    "bloque_destino": "casos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 31,
+    "tipo": "code",
+    "source_sha256": "8b6d905dc6b4bfe722d6f23f8c0292a6a2433665808aeca21bf73c0514c241ba",
+    "bloque_destino": "casos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 32,
+    "tipo": "markdown",
+    "source_sha256": "7e41d26f7b3857ef7761f2d223d3a7981d1b702795b41d980543e2b7158ad78d",
+    "bloque_destino": "casos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 33,
+    "tipo": "markdown",
+    "source_sha256": "f64f8ec24a876197bba34356f115ff8b2ccc94eb6cea8d1ae4f6cf7b22ab6b72",
+    "bloque_destino": "casos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 34,
+    "tipo": "code",
+    "source_sha256": "5bbb88225641f61dd4767679a4837cb86ea79a88383bcdc23cc4af09830c4379",
+    "bloque_destino": "casos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 35,
+    "tipo": "markdown",
+    "source_sha256": "449d87d97bbc8acb827b823ebfedc09aa92447e390cdef4c679eb4ed2e1cb801",
+    "bloque_destino": "casos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 36,
+    "tipo": "markdown",
+    "source_sha256": "e1ca0ecfe7bd13e420d19518cc63ec543dd0a5e4c39b57c91c3f98893a28faf3",
+    "bloque_destino": "casos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 37,
+    "tipo": "code",
+    "source_sha256": "07a8f0ca4b65f6adfbe68c29b3cf38887a81d7ace09333e8cc51f83746d1f67f",
+    "bloque_destino": "casos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 38,
+    "tipo": "markdown",
+    "source_sha256": "dc23ea4304c4686f2b8d467b552960dd6e5d3278fe6ebbbfd321c2ed9e8861c3",
+    "bloque_destino": "casos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 39,
+    "tipo": "markdown",
+    "source_sha256": "ea1c125945eb007596691bcdb8ab7f5a95be34bcc9ce28a6fc18292341dc3776",
+    "bloque_destino": "eleccion",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "diagnostico_por_equipos.ipynb",
+    "celda_original": 40,
+    "tipo": "code",
+    "source_sha256": "39801569d28397d18a580e1e79fa8fa97af9c6d23d2ab90ba348c09188790393",
+    "bloque_destino": "eleccion",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 0,
+    "tipo": "markdown",
+    "source_sha256": "8842e9ef9e5f9b00655e3d419db79f78b143b0a6af8f4133c59497216604c28c",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 1,
+    "tipo": "code",
+    "source_sha256": "737ba992b5a098a7abbe4c08c5d00421098e003a0ad0e84d0145127602957381",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 2,
+    "tipo": "markdown",
+    "source_sha256": "a6c14e711a84a6639b807bd3d8ebdf318762612d58569b48360b2869b808ed82",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 3,
+    "tipo": "code",
+    "source_sha256": "1bb10ae6cfb35e21d4acf1ea6ace35fc9384bdcc6f789ad1c846b64e6d3423c9",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 4,
+    "tipo": "markdown",
+    "source_sha256": "f8f444f1aa1db32fd1a498262bbb5962da8479aa043502171e44ac6a86dadf80",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 5,
+    "tipo": "code",
+    "source_sha256": "44c400c2c5eac6c887edd43a8a8ec1671dcc773a79c73d3a0d507f45fa2d2179",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 6,
+    "tipo": "markdown",
+    "source_sha256": "0a73d99bc39227d366077de26c6ab11858efdae57cef6f64be2d091c96f00c53",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 7,
+    "tipo": "code",
+    "source_sha256": "9d9493acf54c5f657a9a53c25274626487bd01ccf545fe70144f27c55c0dc317",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 8,
+    "tipo": "markdown",
+    "source_sha256": "20e9747ca958a503af56ae130419febe7ebf4e6c2cc85f91505de28515a84032",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 9,
+    "tipo": "code",
+    "source_sha256": "b21e2b8368b01a2504cb32559c157ed48f23258dbae2eaab36f75e9609cefcfe",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 10,
+    "tipo": "markdown",
+    "source_sha256": "2b64fbbc74a13755f72ee64c4fbcbf94f8de4dba2e30c89c9a9349ecef083612",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "evaluacion_final_test.ipynb",
+    "celda_original": 11,
+    "tipo": "code",
+    "source_sha256": "997e2a04382f76034694de88ad0c7bc4c3f703b4951e4533f3927966cd2344ab",
+    "bloque_destino": "test",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 0,
+    "tipo": "markdown",
+    "source_sha256": "3186967387f75f5bf47d319b464be01523903b0ec09edfcb3f020e8f22080603",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 1,
+    "tipo": "code",
+    "source_sha256": "3ea01e5e65151e8372a0411f2730d434228c335b5111c909734ac92bfbc625f0",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 2,
+    "tipo": "markdown",
+    "source_sha256": "e9f54af225186923dce8fe8d8e920040b6fcb4764abee68c4dcedf404bf389e1",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 3,
+    "tipo": "code",
+    "source_sha256": "b500e334f1610bc06f24f2838b5f2580c32f5caf907fa204f24faa77dd23b787",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 4,
+    "tipo": "markdown",
+    "source_sha256": "fdf8787b04b6593e1142dc5250638848a9190524b1c73afc803b21bb792b9c2b",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 5,
+    "tipo": "code",
+    "source_sha256": "978e0cc35dfaac09ff0a555388d02ac7680e5e0f2ca944346b01e7c179b7ad4f",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 6,
+    "tipo": "markdown",
+    "source_sha256": "6b4b12c0749064d753100cb550743da3c182d0bd41e90110a92cbb27ac075383",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 7,
+    "tipo": "markdown",
+    "source_sha256": "73c8a4eb31f3f6328516ea2269d729de7551a827bac7a8d5f86b0d08bac7adb2",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 8,
+    "tipo": "code",
+    "source_sha256": "5e8d994f2e40030f588d79577989521d5986d2cbac752451df27328864ed840a",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 9,
+    "tipo": "code",
+    "source_sha256": "87e8f9e6b62481786229a1a27503798b2a80dffc978967f162cd7eda381e899c",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 10,
+    "tipo": "code",
+    "source_sha256": "178f920ddc964a932e57e8c94e21ea89278ca7f783dcd6a8ef89d4fab022d9ed",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 11,
+    "tipo": "code",
+    "source_sha256": "52c6b0e514d9d3a17b2b4d00bf5cfd4b2f18cd4a9780a1725186c079502d4c95",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 12,
+    "tipo": "markdown",
+    "source_sha256": "abce9d245812d051e746c04a90a19802d9f9c63fa42c6a088a1b66d9cb15710c",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 13,
+    "tipo": "code",
+    "source_sha256": "263680623cc3cb9034f3b0da5e92fd7ae0c81c2f5c7f2002ade80f6508aaa5f1",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 14,
+    "tipo": "code",
+    "source_sha256": "62346840191c68920a2eedd3a2e9780c6ba58a9ba8a496ec316eec755b540a25",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 15,
+    "tipo": "markdown",
+    "source_sha256": "eac1a0850bd9403b1a97fa365edbf2abc887ee2d27319d6bc7682419c762b969",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 16,
+    "tipo": "code",
+    "source_sha256": "89b2dfd3c660ff1d4a127bd1553f4540e47df315b66f310f33a4aded311dce6a",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 17,
+    "tipo": "markdown",
+    "source_sha256": "962c603f3571c65e3c7997b011b173fa4ae023d343577c175da754d398987843",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 18,
+    "tipo": "markdown",
+    "source_sha256": "897eb0585cb05826d29395d7151c66adcc81d67938c632f16032a10b299bf02a",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimento_pesos_temporadas.ipynb",
+    "celda_original": 19,
+    "tipo": "code",
+    "source_sha256": "af9a891ca356bf979b228c10d4a1da3596d89b068ff363ee90b3f2c290567be3",
+    "bloque_destino": "pesos",
+    "notebook_destino": 3
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 0,
+    "tipo": "markdown",
+    "source_sha256": "ced704c31d080b5abfdfb22c49c301306133d0fd3b60cb8d98dc699fb4921e52",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 1,
+    "tipo": "code",
+    "source_sha256": "cd3adda6b33e910463f6136559c7738db4eb3b83be62023384e8da09e278ebba",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 2,
+    "tipo": "markdown",
+    "source_sha256": "9db15ebfd18eadb2f38f0ea397337f9462ea317faee2ac2ef97f03ebc8483cc3",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 3,
+    "tipo": "code",
+    "source_sha256": "c191a43bae80409c50820cf05e5aed8c8d2e66f61e40933887c7f6ca6f86f131",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 4,
+    "tipo": "markdown",
+    "source_sha256": "050783bddbbff46b60b0d85c8c2639f15e1e2866ccc4b11d489f5714ecbbd143",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 5,
+    "tipo": "code",
+    "source_sha256": "b654dd0dc808a76667ad2941ae70d8726c7c30ceba4e1455693507441e6d4745",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 6,
+    "tipo": "markdown",
+    "source_sha256": "2d6ce3fd748f4c30d1ac326091a3c8f1d84a3eec881fa8fb055ac8199a08e999",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 7,
+    "tipo": "code",
+    "source_sha256": "95711174dbbfeb2d54c9a34d9e50ff170b7804a6ff843e705e72c8ea39d236d0",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 8,
+    "tipo": "markdown",
+    "source_sha256": "b71b4c7e6a0e27d9c76accdf99e033be9321a67602ec2d2b52f7957d75385fdc",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 9,
+    "tipo": "code",
+    "source_sha256": "74d4281517444fb6819ca0e48dd68269bd5f2336a83eeecf06138c826c6d5091",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 10,
+    "tipo": "markdown",
+    "source_sha256": "415472ed9a0e051519e82f90ed31680343445f5e47af917a873b02dca2a2dac6",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 11,
+    "tipo": "code",
+    "source_sha256": "297647b3974168e53161a57e414503a2a49fc42fd94bfb186b62b366a4932b4e",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 12,
+    "tipo": "code",
+    "source_sha256": "7695ffdc07a33f0a22f34b4a27c7113aa3e4ab9b0b13b853c892878ea577cd77",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 13,
+    "tipo": "markdown",
+    "source_sha256": "c6dd0f446276c3938a3a01d8a21173ab6fb125313c9a0146c4aa9730c62bb6c7",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_contexto_y_rivales.ipynb",
+    "celda_original": 14,
+    "tipo": "markdown",
+    "source_sha256": "efbbb3fc7aaad19f413b960842ffa7e560eb8ce926a25b17b81d55a927c06121",
+    "bloque_destino": "contextuales",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 0,
+    "tipo": "markdown",
+    "source_sha256": "33b927fa3d654cf9752e0d7deb2ae1ca85b2b2e1de8daa942b6c0e989a568507",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 1,
+    "tipo": "code",
+    "source_sha256": "f73b59771007dafeed9a108c5452826b076faeac45442ccea68edcddc7ee6ddb",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 2,
+    "tipo": "markdown",
+    "source_sha256": "b85c0f73898c11350663a3c0ad201b98d2d677da27e4be91df5d6be27b0ece86",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 3,
+    "tipo": "code",
+    "source_sha256": "e74e36a0d922c874f36dcd5eed55c4e69dad3f5bba273dec16fc87548f1aef42",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 4,
+    "tipo": "markdown",
+    "source_sha256": "e3875a58d08f923bb4260a5ddcd78547e8e222f8af8af591a138796e73bffedb",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 5,
+    "tipo": "code",
+    "source_sha256": "a6e027ab533d7af3ada6daa0221798632fc5339a9328e3bbb32932a0f1abf3dc",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 6,
+    "tipo": "markdown",
+    "source_sha256": "aa9c65755f34a4b69ce2091fef159826c194281858e6159a3850dfbb5994d5ca",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 7,
+    "tipo": "code",
+    "source_sha256": "8e46230e350e2faee18280f4d6e717ff62485c27964c53443582150b4eb743ed",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 8,
+    "tipo": "markdown",
+    "source_sha256": "1af4ed417a9945c47611d6f1929741c8e25c01c8c6a0cea6f43ef3c8dd92d137",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 9,
+    "tipo": "code",
+    "source_sha256": "3831e8397e77a25db715e81084e563bd5d8669c153e039ee753923f41c40ada8",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 10,
+    "tipo": "markdown",
+    "source_sha256": "45dac1f83bd7d0e7cb174c8ea0f0c7a17617718e6318e9ff5dd5903910ce48e4",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 11,
+    "tipo": "code",
+    "source_sha256": "ec140b0d481101c26867fd861c5ef711dc071796fabb0237882441042f7ed890",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 12,
+    "tipo": "markdown",
+    "source_sha256": "972e1aab4396c0d125d97658eada88ccce333ef70085b966c6a5c2e63c7c9f85",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 13,
+    "tipo": "code",
+    "source_sha256": "0e09cc2f0e06d1a1cca884a6426a77eda9be563a95357294e1605d9e94437548",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 14,
+    "tipo": "markdown",
+    "source_sha256": "bad63f473228b17056e8fefed68ebc8b08bfee7ba7169dbf3044ff6bb60212c1",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 15,
+    "tipo": "code",
+    "source_sha256": "04a62bd739449278c66ebbe90ab11d7e4da097dffde694dc8c8d0272766c7801",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 16,
+    "tipo": "markdown",
+    "source_sha256": "0c6b9198e20b0bc2484a9b96a5c415fa9f10b1e348436e27f47ae811805f0b79",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 17,
+    "tipo": "code",
+    "source_sha256": "7db0f62ded5eb72b57cc70d1ede51a7e4a695b66e5ac3e97b2015096b47c9f2e",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 18,
+    "tipo": "code",
+    "source_sha256": "eb1110519bcae7fab218fc3696dc091a34e7189e38a0eb49c87e4f63a2e3f021",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 19,
+    "tipo": "markdown",
+    "source_sha256": "41355ca0d7a870d59aaebcfb63c6803716b7c0cf513763ec686cd4bc11e496c3",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 20,
+    "tipo": "code",
+    "source_sha256": "2d7e633a9e71d39ac3b0791855c6e26dbce735ea4cde01d30480afa9f3bb6f36",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "experimentos_reducidos_y_por_partido.ipynb",
+    "celda_original": 21,
+    "tipo": "markdown",
+    "source_sha256": "784704e04ef77dc14cea588936924fbb8518563fead7656a2545ca69d9d6f0c5",
+    "bloque_destino": "reducidos",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 0,
+    "tipo": "markdown",
+    "source_sha256": "21951c8325de64fd7f3dfb6e3f8223865d3209d06bfafd179822f21902f16015",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 1,
+    "tipo": "code",
+    "source_sha256": "5d5009f88f667a23beb7f9b5dedc79de35576766317a4e74e5d1fabe0dbc1d2d",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 2,
+    "tipo": "markdown",
+    "source_sha256": "76bb0c63fcfaf97fa6001eb7bfb35fcfa3435f5e50ec767fcf83e43379eec110",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 3,
+    "tipo": "code",
+    "source_sha256": "066528b6446e2ccfeb951ee5cc39892d7543da5670973e807f6e4fdd7465aff1",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 4,
+    "tipo": "markdown",
+    "source_sha256": "f601f2a91adb3fed64e4336f3b9732072ffc35cee44bd532aab7600c2562d6a2",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 5,
+    "tipo": "code",
+    "source_sha256": "53e207cd77b3a639fcc4e9ecdf6c189586247d9a5ad02e757de3b9570dbc3206",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 6,
+    "tipo": "markdown",
+    "source_sha256": "033c8e91af8a1bbaf160aa816bf67b82ea216962ed3fcf868d814a0e58791ccb",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 7,
+    "tipo": "code",
+    "source_sha256": "3ac155707d1e2d07524d3a51a1c97e3c159092830e148ec2b63186119365995d",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 8,
+    "tipo": "code",
+    "source_sha256": "2fa91c70fcb8a7b2841cc6044a3bb6b4cc9c8d4d656cb07204b86e6e06edeae3",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 9,
+    "tipo": "markdown",
+    "source_sha256": "e79aa32816c8899517cb207ba7f92accd40d0667ac9eb9d97ed7203a6df1ab1c",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 10,
+    "tipo": "code",
+    "source_sha256": "45ea629c35629d1052a4b612d359ad6ad5b11558bc53679f794462df906f8f8a",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 11,
+    "tipo": "markdown",
+    "source_sha256": "e70f93974ed5f9c4b6aef3aa772e41e4d0f39168e6190fca014915b9fff51700",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 12,
+    "tipo": "code",
+    "source_sha256": "f9d8471172f2a3118beaf706fc7a637577106714b3c6e953c013195dc358ab31",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "grid_search_temporal_xgboost.ipynb",
+    "celda_original": 13,
+    "tipo": "markdown",
+    "source_sha256": "ff84f0e1293dfaf215be0e2c063c7017eb417b6f3096dd922fea961bd2c9193c",
+    "bloque_destino": "rejilla",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 0,
+    "tipo": "markdown",
+    "source_sha256": "d796d218476e0f7b6dfa6692e23db47885493cbaf7f1862ae62bad8c5dbc62bb",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 1,
+    "tipo": "markdown",
+    "source_sha256": "2028cf2f61c5fa5951962b7e0a11514e46a69beb3bb5f2256a796baee659e53d",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 2,
+    "tipo": "code",
+    "source_sha256": "3da5fc6197fba57b25897a909719baf0ecb0631855f382898aaf18a4be2c6380",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 3,
+    "tipo": "markdown",
+    "source_sha256": "da0a9ea5e54d67b1656536222c811e20f0f520b73104f86f5ba4c70b6e5ca099",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 4,
+    "tipo": "code",
+    "source_sha256": "7d725dcef44083072fbcaf0fce1a9fc29a81f6f04862422fbe2ad77bf55559c1",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 5,
+    "tipo": "markdown",
+    "source_sha256": "cc0e7fad356f687b009a73c45fd3f1158f304f867f91215df0307d052cb8b670",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 6,
+    "tipo": "code",
+    "source_sha256": "4ac646bc7389593b63266c755345407138fce8fe9064591956cb37cef7af3d53",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 7,
+    "tipo": "markdown",
+    "source_sha256": "33cc1a9e0862db573f10e517b2740e7db8e70f987d7b7876c1af1bcae8dddd38",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 8,
+    "tipo": "code",
+    "source_sha256": "eff74155ef129191a2f5256e80cd6dd834368e3036aa669e00e0fb60d0772e0b",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 9,
+    "tipo": "markdown",
+    "source_sha256": "5598d2af101cb18e8f26ab7214bab806c5ebadf92bebc932470353a975b1f09c",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 10,
+    "tipo": "code",
+    "source_sha256": "dc8e6a5e9af8a371229050b771aec90783cbbc400d5dfc068ad622c64b7baa9b",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 11,
+    "tipo": "markdown",
+    "source_sha256": "d1181ecf0b0e893e026c2744f42f8e2015e0e129d89b4e7151a154585891de3b",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 12,
+    "tipo": "code",
+    "source_sha256": "0eb763185fb5c313ee934fd52fcbd888ffd3842399aa8cebca7aa9d201fbf363",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 13,
+    "tipo": "code",
+    "source_sha256": "304f90c9f42a6206eef923a6542b81ed76431d707d8b33718a7818c1ac4fef76",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 14,
+    "tipo": "markdown",
+    "source_sha256": "c40711a819cab4b1955974c75714bea2b63095001a2f9c693fddc0716a0f6b0c",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 15,
+    "tipo": "code",
+    "source_sha256": "0998c29f165c55b360d85d6a88fc8e69f945d9630a5bded23a10aa2305f017ba",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 16,
+    "tipo": "code",
+    "source_sha256": "0eab21a3da289843911a55ffccf99033ca523755ba8dfd11957567a0aefe8538",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 17,
+    "tipo": "markdown",
+    "source_sha256": "118563192d62b380b6c8ee63d9ae71208150543d2809a401ef00ad29269d69a4",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 18,
+    "tipo": "code",
+    "source_sha256": "4967ee50039d2ae36d5abdfe5c52a718f9cdf0e4f57410cdb5dbd4bfa24921de",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 19,
+    "tipo": "markdown",
+    "source_sha256": "d107baea488c97259c100aae29d8821718d094b280c18b287d67780c17f6f89d",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 20,
+    "tipo": "code",
+    "source_sha256": "6fe640f717e7c05dc8ada108d17ee73648708200340efb1e45361ac31d637057",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 21,
+    "tipo": "markdown",
+    "source_sha256": "20d7d25f27ba8c5bd1832f9258b3d31692694a18d41904d2c736074e38be0f96",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 22,
+    "tipo": "code",
+    "source_sha256": "dd04d4480b2646539048914af6a471944e0b4ae7dc6cc6c0df26201cb2f87f0c",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 23,
+    "tipo": "markdown",
+    "source_sha256": "1bbdf161bb9c34bbefd3773a142523350aa880a10517c31fde51529ed4fa4f5a",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 24,
+    "tipo": "code",
+    "source_sha256": "51f764256ae64ceab373c3c73e8b40d8a000754474358e26adbd9c293c95a56e",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 25,
+    "tipo": "markdown",
+    "source_sha256": "3e03280455c1b8e9549954bc396454dd3c2c3425ec4c473ca666978da9e8e08d",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 26,
+    "tipo": "code",
+    "source_sha256": "2b2a0bfa4799dc237524307b118ad8c1dee5cb6483b18016240d168f75dd4e28",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 27,
+    "tipo": "markdown",
+    "source_sha256": "8a57ebd50aeb77f2e0f3f3146152ccf11eef885c09699260d127e7561e4a97f2",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 28,
+    "tipo": "code",
+    "source_sha256": "a055af59b43755bffa978be3e774dde875f47028af27c5582c1ce881c863d4f2",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 29,
+    "tipo": "code",
+    "source_sha256": "38ac7941f834f6ee9803b1a2d45c671399cf32c3497b26e19493c27b8a61a82d",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 30,
+    "tipo": "markdown",
+    "source_sha256": "e58a3c78bc8ceb7356bdf2b0b88e449831cf27e48ea85fea5449110fdf16b404",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 31,
+    "tipo": "code",
+    "source_sha256": "84dad308c5d3dbf7d578c0d21dbe2a00398453b41b52083d670eda4ad42a3b8f",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 32,
+    "tipo": "markdown",
+    "source_sha256": "b46518057322b6bcc9c26d262986d8ff0fa999b9b477ce19c33384dc12934b24",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 33,
+    "tipo": "code",
+    "source_sha256": "d62176d0bec2746ed6774924f35ea2592150adc7308fd37d1b6e78e78fa280b1",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 34,
+    "tipo": "markdown",
+    "source_sha256": "d9cbb593e5df0269e8a9c3468a3893deb4ae31733b6b3eb81709a3f2fc7c62af",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 35,
+    "tipo": "code",
+    "source_sha256": "1b4bed14bc995327e47afd4091b0cc52394a1ac1b6d91efacf365f15a10733e3",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 36,
+    "tipo": "markdown",
+    "source_sha256": "48711cf42f195e8439abd071650365dd1aa08cc652927e3a9220639e4a44d474",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 37,
+    "tipo": "code",
+    "source_sha256": "95d005656acdcbd89699c758fc1064ec1c515cd981f1427253132c6acdd7d730",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 38,
+    "tipo": "markdown",
+    "source_sha256": "a54a272feb19bcca705b6c439195b94546f45ba5f180c65bbb98c992a6f8d9ea",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 39,
+    "tipo": "code",
+    "source_sha256": "41bcbf80b4044fc6daa74dbf2ec6d8f7509cd73e01fa00b041b503f33827d3f2",
+    "bloque_destino": "datos",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 40,
+    "tipo": "markdown",
+    "source_sha256": "6a332910095bb39a8bbed5981bcb62daff013f420e7e40c4423a09747d047abd",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 41,
+    "tipo": "code",
+    "source_sha256": "865979ad44862b8d828c93a6b24a320f895087d29b498473fc553080ccd5a1df",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 42,
+    "tipo": "markdown",
+    "source_sha256": "50e594169a9a10b1223f1bc7705b2565e2e6ebc19648306230306d017414c946",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 43,
+    "tipo": "code",
+    "source_sha256": "2edbdbf76e2b8f77238b132c7f81c43ef39769cd2613ca9a794eadbfe142894b",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 44,
+    "tipo": "code",
+    "source_sha256": "66d8704f22e02ace8890469039bda37dd7d2f16197d253defa0d878c6a4fbc96",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 45,
+    "tipo": "markdown",
+    "source_sha256": "290cb38f9b3cbac99a34f5a3739b7259220ad25297cc49575ed42c3be8950e3a",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 46,
+    "tipo": "code",
+    "source_sha256": "a9840c29cc05f646a4e894c72e6d309c0a036dca6aed25388c36d5d3c2d1d9a2",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 47,
+    "tipo": "markdown",
+    "source_sha256": "f39f174d88f182a8f5abe15dfb9affb5fccc01504e7439f8ec4b5851edb51c3c",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 48,
+    "tipo": "code",
+    "source_sha256": "5c2daedc26b8f049d4e1889233d724ed8b619a3fd06bc3d67c67de3d9863d9ed",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 49,
+    "tipo": "markdown",
+    "source_sha256": "0f5351bcfb6246512be3d96165aaa4b13a3e9a525d9d91529170deb9136662f8",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 50,
+    "tipo": "code",
+    "source_sha256": "9ff5165e3322d20613d8dba441cbd145ca40ed7fb27ec109f0e030cda3f8bb85",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 51,
+    "tipo": "markdown",
+    "source_sha256": "24b4cd33ab2adec83b8864257f1b117a5cb6e3abcc1d9db960fd9dea3ede0a9b",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 52,
+    "tipo": "code",
+    "source_sha256": "1bf08fd9297e7386fda753976be35b079bc5df447242cd7936d552ad65cb7f54",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 53,
+    "tipo": "markdown",
+    "source_sha256": "e1ecdb4c6a6aeaaf1b7a60fcd2a691cee1852cd5d55845b9f9339c5f15d885d9",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 54,
+    "tipo": "code",
+    "source_sha256": "0ca59fffe860d56eda3792ac543fd88de2f243564f25e085b624a7b39ea04ff8",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 55,
+    "tipo": "markdown",
+    "source_sha256": "4a092517b3522614725e09ae96bca066758ccd698a5009507a2c12f5007b160e",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 56,
+    "tipo": "code",
+    "source_sha256": "a0dbac742028d90ce6f3cbc306623dbeddaca1a323874d22f6da5fe129fe8dbf",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 57,
+    "tipo": "code",
+    "source_sha256": "a7a5c1a6e6d56b6f519147e556c997463d027d4d2fad853c99a61cda0fefcb82",
+    "bloque_destino": "eda",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 58,
+    "tipo": "markdown",
+    "source_sha256": "8e26028364d29bb4930a8b599bc70c9266468840785c731c07b4635ac112a185",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 59,
+    "tipo": "code",
+    "source_sha256": "c196ada72a08cd79e507037ec94a971acf70ddef01f25d8ad687bc166fa3d311",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 60,
+    "tipo": "markdown",
+    "source_sha256": "16ce39179545e1717332b4a73fd28e49caf38e981b4bb9af4701f963b6a5443b",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 61,
+    "tipo": "code",
+    "source_sha256": "fffb4ca46ef4b155c8d512e43b86aa4a3ffd1db1e6ae3416070f543182a63b71",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 62,
+    "tipo": "markdown",
+    "source_sha256": "277ad55045b2014d7684112713735cf837b05b682465e986338e61218856cdfa",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 63,
+    "tipo": "code",
+    "source_sha256": "f7affb565e64e0bad23acb254e326575969fe8cc4a12a2afe74bb05123eb6a6e",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 64,
+    "tipo": "markdown",
+    "source_sha256": "cd633771d00ce0e4b0d4580e295ae029a3e1f6e4cbedeac683c028ca4609d489",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 65,
+    "tipo": "code",
+    "source_sha256": "6b80a3db667441add6329a21124d2849f2ae5193d3f4c18663239c5ef091bea0",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 66,
+    "tipo": "markdown",
+    "source_sha256": "b830d406f5bcb3e44533dfd0a30ea4b2d5bab8dc26da45911b39cde58ca77966",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 67,
+    "tipo": "code",
+    "source_sha256": "4072e7d2ad4c9da8020324341585f6e0a68303ee5464b8449a4977be1b674dae",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 68,
+    "tipo": "markdown",
+    "source_sha256": "74089424c56c548f2d26b3c7b3552f21c402225923b5aa5300b1e077bd92ac3a",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 69,
+    "tipo": "code",
+    "source_sha256": "f9297992a45085f293398779163d66c6f6caab07f9c43e27df259091f830dd12",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 70,
+    "tipo": "markdown",
+    "source_sha256": "bf2ac4e205d29a8b7028ad8640ea38f1fe53dfd1c3c86edfa840cf0442d1211d",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 71,
+    "tipo": "code",
+    "source_sha256": "8cee5ed919ca9122f203c9da0bc915b67023889cdbe8421205ba56b923622016",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 72,
+    "tipo": "markdown",
+    "source_sha256": "9ea243c80adb32810d4958802e3e1034b34893acbea1141038816737b4f990fb",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 73,
+    "tipo": "code",
+    "source_sha256": "7e049b19da16429eb1da1c39d3f486c263176d6c3b4d3263060cbd0f3ae2b367",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 74,
+    "tipo": "markdown",
+    "source_sha256": "4ee070638d15a1ab305cb0f8e3ca7e03bee0704efd585b633ec997ecd9be409f",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 75,
+    "tipo": "code",
+    "source_sha256": "eeb7f2c99a9a60fc69a1213cef8ac10e5c8a5dccd4ff61f4f6d2f28784110475",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 76,
+    "tipo": "markdown",
+    "source_sha256": "b4b72a9f9b72e967e2431729b2a77b28bc70422192ca673d859c193007bf41b9",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 77,
+    "tipo": "markdown",
+    "source_sha256": "6fb9279e6da4280bc0499a3fd40b2693847e005e53d6374608a4bbfd45ad6e28",
+    "bloque_destino": "variables",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 78,
+    "tipo": "markdown",
+    "source_sha256": "43190345e6a8b08bf0623b176a06695f610e0add6408d5c2c3cec61bf16ce6a5",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 79,
+    "tipo": "code",
+    "source_sha256": "6d0064d251aa80c5024eb3811d12849bb3b2c780cc7a43c32338e1e56815de01",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 80,
+    "tipo": "markdown",
+    "source_sha256": "722142bbb4ba794b8face8e59c7eac7cb332b816edfaf8468599d527e715b218",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 81,
+    "tipo": "code",
+    "source_sha256": "fef7b851fa12770ec9277f6edf51fa7e0ef3b67f371426fc7e41ab612698e99d",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 82,
+    "tipo": "markdown",
+    "source_sha256": "1e946d4c23e6fef5e32d8aacecfae05f3d5091aa37167766562748287615fd09",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 83,
+    "tipo": "code",
+    "source_sha256": "04dc81095db83a844b5fa6d5f2f0e4e9271a07f107ed678e0b13a3adc03f7ebf",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 84,
+    "tipo": "markdown",
+    "source_sha256": "477d2dd974bc56daa3fdb1ead4f196b77de8f409df019fb9c788e47f48353759",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 85,
+    "tipo": "code",
+    "source_sha256": "0e88dc0a0761acb9419ba782139ed1f43a826e2a48997d1292e80275c1a53aa1",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 86,
+    "tipo": "markdown",
+    "source_sha256": "bd14426fd878f53a467fb129586e6e31250693ec974a3b5ab2b41c7fb4f06498",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 87,
+    "tipo": "code",
+    "source_sha256": "edf59cf13a9da1f5245d0942390aac91675f1316104d6112b10939708364c940",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 88,
+    "tipo": "markdown",
+    "source_sha256": "122c41b3cfc7e973801ca8b098a5c450b8b44c840d650cd4c9b4f6159d404c8c",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 89,
+    "tipo": "code",
+    "source_sha256": "ef5e3eb7e757104cfa15891cfb374b5a74c101bd0459be7f7840f14590618157",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 90,
+    "tipo": "markdown",
+    "source_sha256": "86b6403ba2d233d2bba6ac9e2ef813fefd1b7a83cc1f2106206acc57a0121567",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 91,
+    "tipo": "code",
+    "source_sha256": "cddfbc10f6bca52877d2b730fcce913644fc5e75a67f130c939e0745371bdfb5",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 92,
+    "tipo": "markdown",
+    "source_sha256": "3de3d641c4dc2de8eefd0c9d3d39a1575f27294c1be61bf2e32331121614d505",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 93,
+    "tipo": "code",
+    "source_sha256": "ce344c9a46069b65c2607c7282ee5ca92aacbdd7ae35799ce0ac310a0e44f274",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 94,
+    "tipo": "markdown",
+    "source_sha256": "69737556d66e8bb0dd39412207414511d650e0886ed33004e5fe28540d21c4f8",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 95,
+    "tipo": "code",
+    "source_sha256": "4ae9cb3c25c5723937d9097fc9eef04beb8246ec13f5c9421b132ef68f0feae4",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 96,
+    "tipo": "markdown",
+    "source_sha256": "0eba517e4441f7facc589bcf42a57307c3917d8ef8e7572f23366058b125970b",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 97,
+    "tipo": "markdown",
+    "source_sha256": "a36c988dcf977ce3ecc99ecd535ba65b275cf67d0726a654e26da6a2a561d4a1",
+    "bloque_destino": "preparacion",
+    "notebook_destino": 1
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 98,
+    "tipo": "markdown",
+    "source_sha256": "06b7eb14e0d37d20ed3802fac67acdbded4c9047619d84b0e05f99c23b680e5b",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 99,
+    "tipo": "code",
+    "source_sha256": "5364e081bea35177f3baff3bc4e20d8fea86aa793e6239dfb2c106a75bef00b5",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 100,
+    "tipo": "markdown",
+    "source_sha256": "96f4cdb436c22150fc05065b4e21a1c168722af28f662a9d7aba92f6cab124d2",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 101,
+    "tipo": "code",
+    "source_sha256": "3590ee9dd1f21754fb7e888c7ad5cbb5054006d7a9b9c74841460f08c2167e01",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 102,
+    "tipo": "markdown",
+    "source_sha256": "ef0de6d36df6e0d440b8715b0ebe9b61c29222af6a21741c69185f1cb3f5245c",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 103,
+    "tipo": "code",
+    "source_sha256": "a897e8ea1e10ef123b6a356db5925ed00de2f10f8325d41d599011c65aa6b528",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 104,
+    "tipo": "markdown",
+    "source_sha256": "513442110b373c8a2cd9ffeed10687efd65dc169b2603d6da2e1a6da31e303d8",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 105,
+    "tipo": "code",
+    "source_sha256": "e425bcafd10650e0a2e623615da0171a1b9cc4c004f424f228f613549ec886b3",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 106,
+    "tipo": "markdown",
+    "source_sha256": "f7e596bbb5ca9958169bbb3e76c754f8a53e3f0dd5252980b284a3dd61d908ec",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 107,
+    "tipo": "code",
+    "source_sha256": "b043b7820b4351fcdf45f01a534a2dd2011ee37b7c0dd779193c610cacc26ed9",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 108,
+    "tipo": "markdown",
+    "source_sha256": "565b62cdd23efdef9d7925df54d4d975ce8e75e536179725325287ce7802acb2",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 109,
+    "tipo": "code",
+    "source_sha256": "83a9603f0cf3a4d73a2b508637492065f9a902b73ff1b81e90b42dd21e213af8",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 110,
+    "tipo": "markdown",
+    "source_sha256": "ec78d76865f1b8bcb5cb3d400ed3033f98ea97c1489d3c04e6d24f8f009454ff",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 111,
+    "tipo": "code",
+    "source_sha256": "5369caee50d8abc0b585f6feb9c8832e1048f46b9d20c1bd61536c081dc4df58",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 112,
+    "tipo": "markdown",
+    "source_sha256": "3a8e077b8463a4ffa0c4ab4b50fd5d5c62cbdf3e9e27b2b263330ca901b62aea",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 113,
+    "tipo": "code",
+    "source_sha256": "48f3a2fe55a83396a71f8aadf0d2dda4064dee30f9579048686e7fb6fce0a02c",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 114,
+    "tipo": "markdown",
+    "source_sha256": "bedaf52dee12a2d212d566d91656d4ff89b808de2239b91c37073eeb9d308157",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 115,
+    "tipo": "code",
+    "source_sha256": "b71fc97cc9c11f5123d5ccc55d4e3e0b434d2384941541991672c5926a2561e8",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 116,
+    "tipo": "markdown",
+    "source_sha256": "2da21eb525e9746483bc81ba369c97be0319a4debfd086254af8a36afbad4342",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 117,
+    "tipo": "markdown",
+    "source_sha256": "cc4dc906874636e2b49c5a4134dcae5d49312b5b56a7c25b292b20f3ca545049",
+    "bloque_destino": "inicial",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 118,
+    "tipo": "markdown",
+    "source_sha256": "926cd40da458cc957a6403effefe0bf398050bc3c15d986e23d82d393540dfa9",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 119,
+    "tipo": "code",
+    "source_sha256": "bcea41b681ce59fabe06a518e06b7bab6e80dbc0d1df48b21649f3016a9f1467",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 120,
+    "tipo": "markdown",
+    "source_sha256": "b828be6d037441fd4331644e1f4fb262088af11ec09ec0312fa0dfd591e0b24d",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 121,
+    "tipo": "code",
+    "source_sha256": "f201610956eb0d580668671de3283c92cff6ac2637f5b0da3f326c4347ccbf5f",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 122,
+    "tipo": "markdown",
+    "source_sha256": "98c5ee055ceec794173f44cbef1a2a7845035d32242a4174085ceaa0e00753ae",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 123,
+    "tipo": "code",
+    "source_sha256": "3c0ca080c5955170809d0520b39a70233f1437f47a31e38835174fd348d95a40",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 124,
+    "tipo": "markdown",
+    "source_sha256": "e6db688996a6cf326976c92185c62c4043ef0e35a2565a01622c9def3c936427",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 125,
+    "tipo": "code",
+    "source_sha256": "e39b5c19c938cbc3779cb2365310f60a3a6e23daa393011d0169217572b46ed3",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 126,
+    "tipo": "markdown",
+    "source_sha256": "472744629752cbaa30df5e77bebbf5d6e72da1d3e77034fc690046bbeec3dc69",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 127,
+    "tipo": "code",
+    "source_sha256": "ebf8618f730c31c09ae0a6d61703b632262ba806fae9e6a7bce632e160d671bc",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 128,
+    "tipo": "code",
+    "source_sha256": "2ef291eec65449a4af63bfe668f635e455cb553fbc450cf791dd806ce4c9f709",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 129,
+    "tipo": "code",
+    "source_sha256": "a8318ae626db179fa50e615335fb9a2bf663d31e14df3f4b9ae97527e5d2f60b",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  },
+  {
+    "notebook_original": "prediccion_faltas.ipynb",
+    "celda_original": 130,
+    "tipo": "markdown",
+    "source_sha256": "c984255dc1b50632ecd417d433b43b788fb3042c1ac0916170fbc8272def0ff2",
+    "bloque_destino": "ajuste",
+    "notebook_destino": 2
+  }
+]

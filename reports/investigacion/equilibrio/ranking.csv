@@ -1,0 +1,2 @@
+modelo,partidos_desarrollo,n_desarrollo,MAE_desarrollo,RMSE_desarrollo,sesgo_desarrollo,partidos_contraste,n_contraste,MAE_contraste,RMSE_contraste,sesgo_contraste,partidos_acumulado,n_acumulado,MAE_acumulado,RMSE_acumulado,sesgo_acumulado,hipotesis_retrospectiva
+local_perfil_directos_equilibrado,59,118,2.9722126950168044,3.756287089091074,0.3742467502900056,29,58,3.2939774579015273,4.261859413502518,0.2168649640576593,88,176,3.0782488100583607,3.930087601958544,0.3223822980088915,False

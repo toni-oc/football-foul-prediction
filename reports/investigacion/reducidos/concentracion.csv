@@ -1,0 +1,13 @@
+modelo,fraccion_error_cuadrado_5_peores
+general_nucleo7_poisson,0.18823137853750896
+general_nucleo7_xgboost,0.1827445771386688
+general_contexto13_poisson,0.20523860652228107
+general_contexto13_xgboost,0.19411606089315034
+pareja_nucleo7_poisson,0.16507938835100547
+pareja_nucleo7_xgboost,0.16835120786978486
+pareja_contexto13_poisson,0.16114976505247267
+pareja_contexto13_xgboost,0.20713560459678074
+general_seleccion5,0.18381146625144135
+general_manual13,0.17337034400864537
+pareja_analogos,0.1630576121932319
+pareja_manual13_xgboost,0.18988417084842946

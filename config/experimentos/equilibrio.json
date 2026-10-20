@@ -1,0 +1,27 @@
+{
+  "version": "equilibrio-clubes-v1",
+  "fecha_fijacion_utc": "2026-10-17T16:21:38.990973+00:00",
+  "hipotesis": "Dar la misma masa total a cada club con historial, conservando sus proporciones por temporada, recencia y afinidad.",
+  "cambio_unico": "Multiplicar los pesos finales de cada club por N_pool/(K_clubes_con_historia*N_club). Se conserva media global 1 y todos los demás parámetros.",
+  "primario": "2026/27",
+  "secundario": "2025/26",
+  "modelos": [
+    "local_perfil_directos",
+    "local_perfil_directos_equilibrado"
+  ],
+  "control_global": "xgb_poisson_sin_grupos",
+  "metrica_principal": "RMSE por equipo en los mismos 59 partidos actuales de desarrollo",
+  "metricas_complementarias": [
+    "MAE",
+    "sesgo",
+    "Local",
+    "Visitante",
+    "Total partido",
+    "soporte por salida",
+    "cobertura/fallbacks"
+  ],
+  "presupuesto": "Una hipótesis, sin rejilla. Medir ambos periodos predefinidos aunque la variante pierda; no ampliar tras consultar métricas.",
+  "decision": "Conservar las dos versiones originales y sus valores por defecto. La equilibrada se registra como alternativa experimental; no promocionarla automáticamente ni seleccionar con el test.",
+  "club_sin_historia": "No inventar registros ni peso para un club vacío. Con un solo club observado, ese club recibe toda la masa y el otro mantiene el fallback original.",
+  "test": "No abrir etiquetas, construir X_test ni puntuar el test en esta fase."
+}

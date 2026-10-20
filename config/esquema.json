@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "tablas": {
+    "equipos": {
+      "columnas": {
+        "id_equipo": "string",
+        "nombre": "string",
+        "alias_adicionales": "string"
+      },
+      "pk": [
+        "id_equipo"
+      ]
+    },
+    "partidos": {
+      "columnas": {
+        "id_partido": "string",
+        "competicion": "string",
+        "temporada": "string",
+        "jornada": "int",
+        "fecha_inicio_utc": "datetime_utc",
+        "id_local": "string",
+        "id_visitante": "string",
+        "estado": "string",
+        "id_arbitro_final": "string",
+        "id_fuente": "string",
+        "disponible_utc": "datetime_utc"
+      },
+      "pk": [
+        "id_partido"
+      ]
+    },
+    "estadisticas": {
+      "columnas": {
+        "id_estadistica": "string",
+        "id_partido": "string",
+        "faltas_local": "int",
+        "faltas_visitante": "int",
+        "faltas_total": "int",
+        "goles_local": "int",
+        "goles_visitante": "int",
+        "goles_descanso_local": "int",
+        "goles_descanso_visitante": "int",
+        "amarillas_local": "int",
+        "amarillas_visitante": "int",
+        "expulsados_local": "int",
+        "expulsados_visitante": "int",
+        "posesion_local_pct": "float",
+        "posesion_visitante_pct": "float",
+        "tiros_local": "int",
+        "tiros_visitante": "int",
+        "tiros_puerta_local": "int",
+        "tiros_puerta_visitante": "int",
+        "corners_local": "int",
+        "corners_visitante": "int",
+        "entrenador_local": "string",
+        "entrenador_visitante": "string",
+        "estado_auditoria": "string"
+      },
+      "pk": [
+        "id_estadistica"
+      ]
+    },
+    "arbitros": {
+      "columnas": {
+        "id_arbitro": "string",
+        "nombre": "string",
+        "alias_adicionales": "string"
+      },
+      "pk": [
+        "id_arbitro"
+      ]
+    },
+    "designaciones": {
+      "columnas": {
+        "id_designacion": "string",
+        "id_partido": "string",
+        "id_arbitro": "string",
+        "tipo_observacion": "string",
+        "publicado_utc": "datetime_utc",
+        "capturado_utc": "datetime_utc",
+        "id_fuente": "string",
+        "disponibilidad_previa": "string"
+      },
+      "pk": [
+        "id_designacion"
+      ]
+    },
+    "fuentes": {
+      "columnas": {
+        "id_fuente": "string",
+        "fuente_principal": "string",
+        "referencia_principal": "string",
+        "fuente_complementaria": "string",
+        "referencia_complementaria": "string",
+        "campos_complementados": "string",
+        "estado_auditoria": "string",
+        "incidencia_origen": "string",
+        "capturado_utc": "datetime_utc"
+      },
+      "pk": [
+        "id_fuente"
+      ]
+    }
+  }
+}

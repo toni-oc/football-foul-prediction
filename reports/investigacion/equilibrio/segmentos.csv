@@ -1,0 +1,38 @@
+modelo,segmento,valor,n,partidos,RMSE,MAE,sesgo,muestra_pequena
+local_perfil_directos_equilibrado,localia,Local,88,88,4.086391133453365,3.250399429420211,0.18039777901900914,False
+local_perfil_directos_equilibrado,localia,Visitante,88,88,3.767304689372793,2.906098190696511,0.4643668169987738,False
+local_perfil_directos_equilibrado,equipo,Deportivo Alavés,9,9,3.242584878738108,2.4812178081936307,-0.12901952531602648,True
+local_perfil_directos_equilibrado,equipo,Getafe CF,9,9,4.636907328288316,3.552006827460395,0.9772205352783203,True
+local_perfil_directos_equilibrado,equipo,Sevilla FC,9,9,3.841652577115712,3.316163486904568,-1.126008669535319,True
+local_perfil_directos_equilibrado,equipo,Rayo Vallecano,8,8,3.7406575115607072,2.7258330583572388,1.6241730451583862,True
+local_perfil_directos_equilibrado,equipo,Racing de Santander,9,9,2.7848016392333395,2.093837276971514,0.5202700669141199,True
+local_perfil_directos_equilibrado,equipo,Villarreal,9,9,3.1126965129766835,2.8305190404256186,0.6729459762573242,True
+local_perfil_directos_equilibrado,equipo,RCD Espanyol,9,9,5.014573929955741,4.046607123480903,-0.6545066833496094,True
+local_perfil_directos_equilibrado,equipo,Levante UD,8,8,3.0979410781450745,2.241669774055481,1.98821222782135,True
+local_perfil_directos_equilibrado,equipo,Deportivo de La Coruña,9,9,5.0570054601357946,4.1682234421082445,0.5710462383388045,True
+local_perfil_directos_equilibrado,equipo,Elche CF,9,9,4.214262203172121,3.4631092283460827,-0.5153220494588217,True
+local_perfil_directos_equilibrado,equipo,Atlético de Madrid,9,9,5.228786393933314,4.258666621314155,-1.3200904528299968,True
+local_perfil_directos_equilibrado,equipo,Málaga CF,9,9,4.154671011477686,2.8935477833096233,0.4913615286207151,True
+local_perfil_directos_equilibrado,equipo,Real Betis,9,9,2.682337496966664,2.442030906677246,0.9679996702406142,True
+local_perfil_directos_equilibrado,equipo,Real Sociedad,9,9,3.1831004162298604,2.451197942097982,0.850822024875217,True
+local_perfil_directos_equilibrado,equipo,Athletic Club,7,7,4.722939348990017,4.280936104910714,2.3128678458077565,True
+local_perfil_directos_equilibrado,equipo,Valencia CF,9,9,4.013934309572654,3.57452572716607,1.2858139673868816,True
+local_perfil_directos_equilibrado,equipo,Celta de Vigo,9,9,4.164766375276402,3.0931213166978626,-0.7726924684312608,True
+local_perfil_directos_equilibrado,equipo,Real Madrid,9,9,2.7513501226586135,2.3200429810418024,0.7492712338765463,True
+local_perfil_directos_equilibrado,equipo,FC Barcelona,9,9,3.6931604963607563,2.6058947245279946,0.24199803670247397,True
+local_perfil_directos_equilibrado,equipo,Osasuna,9,9,3.799666598325517,2.8609783384535046,-1.5166508356730144,True
+local_perfil_directos_equilibrado,cruce_grupos,Sin perfil / Sin perfil,60,30,3.4837677827841897,2.7823823542438038,0.2216188658235386,False
+local_perfil_directos_equilibrado,cruce_grupos,Grupo 2 / Grupo 2,72,36,4.310579901236894,3.4056843055619135,0.34296788771947223,False
+local_perfil_directos_equilibrado,cruce_grupos,Grupo 1 / Grupo 1,10,5,3.8603984267603053,2.5664957046508787,-1.7144365310668945,True
+local_perfil_directos_equilibrado,cruce_grupos,Grupo 2 / Grupo 1,17,17,4.4484084427471,3.5578335032743564,1.6075696384205538,True
+local_perfil_directos_equilibrado,cruce_grupos,Grupo 1 / Grupo 2,17,17,3.133853799613592,2.557144277236041,0.5037732965805951,True
+local_perfil_directos_equilibrado,antecedentes_actuales,0,20,12,3.500939594161902,2.9417756351953996,-0.8987035545832172,False
+local_perfil_directos_equilibrado,antecedentes_actuales,1–2,40,22,3.4751500579920798,2.7026857137680054,0.7817800760269165,False
+local_perfil_directos_equilibrado,antecedentes_actuales,3–5,60,31,3.9672858481646456,3.1260432481765745,0.4985012133916219,False
+local_perfil_directos_equilibrado,antecedentes_actuales,6+,56,29,4.321590085322556,3.3440402575901578,0.2416442802974156,False
+local_perfil_directos_equilibrado,faltas_observadas,15+,46,38,4.875759921203302,3.9894360578845656,-3.623908282907918,False
+local_perfil_directos_equilibrado,faltas_observadas,8–14,112,74,2.904562409489148,2.274134772102528,1.0703966788502746,False
+local_perfil_directos_equilibrado,faltas_observadas,0–7,18,17,6.146263149368311,5.753035412894355,5.753035412894355,True
+local_perfil_directos_equilibrado,tramo_actual,1,60,30,3.4837677827841897,2.7823823542438038,0.2216188658235386,False
+local_perfil_directos_equilibrado,tramo_actual,2,58,29,4.01880377687498,3.1685889096095643,0.5321376652553164,False
+local_perfil_directos_equilibrado,tramo_actual,3,58,29,4.261859413502518,3.2939774579015273,0.2168649640576593,False

@@ -1,0 +1,70 @@
+{
+  "version": "candidatos-v1",
+  "politica_filas": "actualidad_base",
+  "politica_variables": "actualidad_base",
+  "ejecucion": {
+    "procesos": 2,
+    "hilos_por_ajuste": 1
+  },
+  "presupuesto_inicial": "100 árboles por XGBoost y dos cortes en paralelo para contener el coste del backtest. Decisión por tiempo de cálculo antes de consultar métricas; sin reducir los 406 cortes.",
+  "regla": "Configuraciones iniciales fijadas antes de evaluar. Sin búsqueda, early stopping, warm start ni selección. Entrenamiento nuevo en cada corte de desarrollo.",
+  "candidatos": {
+    "poisson_glm": {
+      "familia": "poisson",
+      "escalar": true,
+      "parametros": {
+        "alpha": 1.0,
+        "fit_intercept": true,
+        "solver": "lbfgs",
+        "max_iter": 1000,
+        "tol": 1e-06,
+        "warm_start": false
+      }
+    },
+    "xgb_poisson": {
+      "familia": "xgboost",
+      "escalar": false,
+      "parametros": {
+        "objective": "count:poisson",
+        "n_estimators": 100,
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 10,
+        "reg_lambda": 10.0,
+        "reg_alpha": 0.0,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8,
+        "max_delta_step": 0.7,
+        "tree_method": "hist",
+        "device": "cpu",
+        "n_jobs": 1,
+        "random_state": 42,
+        "verbosity": 0,
+        "validate_parameters": true
+      }
+    },
+    "xgb_cuadratico": {
+      "familia": "xgboost",
+      "escalar": false,
+      "parametros": {
+        "objective": "reg:squarederror",
+        "n_estimators": 100,
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_child_weight": 10,
+        "reg_lambda": 10.0,
+        "reg_alpha": 0.0,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8,
+        "max_delta_step": 0.0,
+        "tree_method": "hist",
+        "device": "cpu",
+        "n_jobs": 1,
+        "random_state": 42,
+        "verbosity": 0,
+        "validate_parameters": true
+      }
+    }
+  },
+  "salida": "Media esperada con decimales. En XGBoost cuadrático se aplica máximo(0, predicción) por dominio; se conserva el valor bruto y el número de correcciones. No se redondea ni se fija máximo."
+}

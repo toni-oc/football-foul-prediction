@@ -1,0 +1,8 @@
+modelo,fraccion_error_cuadrado_5_peores
+media_global_uniforme,0.17653900312745563
+media_global_recencia,0.182368014501255
+liga_localia_previa,0.18628602739967104
+equipo_rival_previo,0.18662201234049833
+poisson_glm,0.22592280463536993
+xgb_poisson,0.21217903506841115
+xgb_cuadratico,0.19445580372334204

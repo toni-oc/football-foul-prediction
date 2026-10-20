@@ -1,0 +1,183 @@
+{
+  "pipeline": {
+    "origen": "src/faltas/pipeline.py",
+    "sha256_original": "8c5b82bef69e9ef9f682a2d04bc1fb8cdbc6f74d0a20338efb43fe1528390c70",
+    "cuerpos_sha256": {
+      "PreparadorVariables": "e1e741a8c808e2447e216dff72dc0d2f5259c91301bb6ea71987bdbde09b5e3b",
+      "construir_preparacion": "2b1c8b3523b288eeaa002a199b7e7257ed8ac8a28786759365ba8e9085619823",
+      "construir_pipeline": "5a9cd2180994b13b47baf048080d1512fd6fd484cde7062899fd98675e4cbe6a"
+    }
+  },
+  "ponderacion": {
+    "origen": "src/faltas/ponderacion.py",
+    "sha256_original": "90cf76998698d5d1345a65a1d5f3231a168d8b336b3e93d8df77412d25dff18f",
+    "cuerpos_sha256": {
+      "temporada_en_corte": "4a3daa7a010fa7df151156ec71e6b02e80f39ff7ca92ee5e0d4ad94046d0c01c",
+      "_ano_temporada": "1bd2cb76db9f7973a6f4f84a40261769e305251bafd44efb8d0e9fcadc9ede8f",
+      "calcular_pesos_recencia": "7fab89cdfc12c89138f1f8d839bbb4fa83a4d349d6581f6b2d9728f1b3e8ba11",
+      "resumir_pesos": "109ef27787346d46254ae6741cac48d69bbfc2f914218fa52a56d8f11cc2965b"
+    }
+  },
+  "preparacion": {
+    "origen": "src/faltas/preparacion.py",
+    "sha256_original": "7ba324362a5dbcad3507ae6a6e94c2f3ba28f43a2543104481ded6cd0f5e00ea",
+    "cuerpos_sha256": {
+      "diccionario_observaciones": "210c1426911d1e39c5fff6c8af7cee2c8cd86c24fb7f7f8baa8d373c48a6d12b"
+    }
+  },
+  "evaluacion": {
+    "origen": "src/faltas/evaluacion.py",
+    "sha256_original": "bdae1b95713c42962d8f2a3f30b598e5c5966e87eae1c49f7c35c8fb72ce7468",
+    "cuerpos_sha256": {
+      "particiones_por_posicion": "c6896017f501e60e6a8f3d91cb2f3cc42da697166092bfdf2e3c3f0841bd3afc"
+    }
+  },
+  "referencias": {
+    "origen": "src/faltas/referencias.py",
+    "sha256_original": "e306a92985d828f07a1a2b60f24e36d6820e800faf9aa6d7d09bf02c2160ad3f",
+    "cuerpos_sha256": {
+      "_vector": "1b8b0bb46582547d019abc8d40b2374acc2347ee1f333e00825ee7271f8cec50",
+      "_validar_X": "1b3a61810e9b84bc932c9b36db8278ffe3c8679cfe6515239d39efe8a42b94cf",
+      "ReferenciaFaltas": "c406b631667de1c9c35f5a66b3e342153df492fe0aa6353464ccd29986328594",
+      "_metricas": "d125b0da880f4bd35d25ffd80e713335ab621c881778a4a120317acd87b2cc8f",
+      "resumir_predicciones": "30ead594e343cf881e943283ae9ecbc57c6bccc071d85d41de393a12ebc53181",
+      "evaluar_referencias": "01ba76384584b10d45617598a1c3d76d8665672376f668bd7643ae1ecf74503f"
+    }
+  },
+  "entrenamiento": {
+    "origen": "src/faltas/entrenamiento.py",
+    "sha256_original": "be73ee940c17b46b01068364d6ab13a8a8a0de17d2cdcce86db2eba10ebf7eaf",
+    "cuerpos_sha256": {
+      "construir_candidatos": "42649a2d40d06e50e4160bcead805d3a15531c8b38bb443ebe19f5fb7f6b8e76",
+      "_ids_sha": "34d7e2db2f533e9329409495697294b52c4ae4ed4877455ed8f0328aedfe3416",
+      "_validar_desarrollo": "709264ed416e5162cfc466abc30b6ea41e432d9dda9bc254ad5bc05ee714c9cf",
+      "_cortes_desarrollo": "016f40125be727fb159bbc64fd6dd3d029ac3ecae74e371b87842fa941237b49",
+      "ajustar_candidato": "e676498744908979d2fb22e465934b9ae497600e6efc7694156f232247b11824",
+      "predecir_candidato": "f4a9ac5cb370519441daf837fefbe21b0043293c21a89e951625451fcc6cafe6",
+      "_ajustar_corte": "04127bc826987d67a2f8c845c6c502d2172db572aea37d99c5acad92cd2619aa"
+    }
+  },
+  "comparacion": {
+    "origen": "src/faltas/comparacion.py",
+    "sha256_original": "969a8e6d3464f5cda33e8192938253f425575ab341e5c0aca7ee69d4bc4a85a4",
+    "cuerpos_sha256": {
+      "_sha_objeto": "f07d06c53a5ee8e406f86ea63b23750abf50dac2bd54a1fd6e50c1c03b05676b",
+      "_sha_tabla": "2dba9566975c185b27f05a2580a54b5e10ab38d216c014eaca499606a944e8c6",
+      "_csv": "86239f0fbfc8a81dd5f3413208a6fdebe5f50cd3845d7cc3d26b596195294f21",
+      "verificar_archivos": "bd0dd60c4905dcd420607b53a5275c13d53a97159077852301a4fe10b3e22424",
+      "comprobar_predicciones": "db6c38be05c6c3087d330190e74e49c3728e845455e135d583ccbb791f72123a",
+      "configurar_experimento": "fd305bf3aae7139817f7c95f8c0b9a8444eade692bc4f34a57153c9e7195150b",
+      "metricas_modelos": "e11a9b1270ba19af4e90fe9b0d6beff3be263167358d26a23f04559071b9a626",
+      "ordenar_candidatos": "f20437ef7c4da8ddb69206805ec44d7c13209a88a09954f327265f827fc8b565",
+      "diagnosticar_errores": "36177a4f0a9e1362c13789653272e5b0e521c2bf9f6b98a92c0f743419f17a24",
+      "comparar_pareado": "46bf7ba16fc69f51196374aa41653245de5ffa839bbe6b2de04816c502e3d0c8"
+    }
+  },
+  "exploracion": {
+    "origen": "src/faltas/exploracion.py",
+    "sha256_original": "1dd50f2ff2eb2ffd3dc65b6a74f1840c016ff1387450ca856b792245a15a1346",
+    "cuerpos_sha256": {
+      "preparar_muestra_eda": "ec464ee9d2271e6495f1241f4e4aa11eddcab3e5b5af4a15759328b12d4e0be5",
+      "_resumen_numerico": "392e832b49363b54b8b21e4603d70ccdb11f27b0e7c13df67acdab19d7861c07",
+      "explorar_entrenamiento": "f9f58a81c19514dd55591cfea1ea9c71207c6a0565b1ef376d427ab129c0e4c1",
+      "graficar_exploracion": "40197b15715dec1f73812c6051fc60d1cf6ccc2504db07f1ac6a232ae3707c9b"
+    }
+  },
+  "reducidos": {
+    "origen": "src/faltas/reducidos.py",
+    "sha256_original": "1eefa3edca8ce27b8b5c7da1c92e47c899710df4752ce45285d9ac373adb0ae1",
+    "cuerpos_sha256": {
+      "catalogo": "8404402a343a295b17345cf4c777d5314864f93aea3171863aa0c7fcddc04901",
+      "_mezclar": "55eaec4a021cc56389294269e1aae2218ede0aca8667c8518e99e585c5ba7dda",
+      "_normalizar_nombre": "2b2c7e04691d71132dbd9484301e29a573d7087dcb4bd89f9ad9769e47b9d5f4",
+      "resolver_equipo": "6ab8419346ee831478101a0a65e7e4d5750d0b00b0e22bec76fe3932b9e16607",
+      "_media_grupo_manual": "6e1d1910aaaec8873527b5b8a227becb5d02f0f9d100c77ae2ba6a94cae4df9c",
+      "_resumenes_manuales": "50174d63ef4567c9e675cf68669c2f576975d7e5934764bed05a8ead4fdb72ee",
+      "crear_perfiles": "65e1ce8e66fd2c390c95f45e3252245fc45dbc9bc68c7868829272ba9a7b6939",
+      "_plantilla": "bd2bcd2639051dcefb319b17820da419a8e2ce433c9d6817fd26ce38e7108a6a",
+      "seleccionar_cinco": "3dfb2266e8c247e7c1b7e81ec9289acc085752f37d62e0233a2ece9bbeffdba5",
+      "pesos_pareja": "8782be30451558b44ce2a74769670a54991d9dc22a5a65dd6fa068dded1be67c",
+      "_referencia_fila": "bb043fdae087ab670568e021f2dc6b1a359a866f7f6a9da31419b14904936129",
+      "ajustar_solicitud": "b5d66a9f65bfd127230840fa84216eebd103a496db0bb7ba62822477dc300b09",
+      "_tarea_corte": "b548e07b28c51cdbf63b2b0f3551dc7dd218163df0d32d8adceb05d12114a041"
+    }
+  },
+  "contextuales": {
+    "origen": "src/faltas/contextuales.py",
+    "sha256_original": "8ce460618092bc5c55922e01115ddd143ae862def6719b156cdccf1822a044fb",
+    "cuerpos_sha256": {
+      "diccionario_contextual": "3fdfb0e7cddca4e560d41f627f7136ab03d30dcafb5cefd866e342982688b134",
+      "afinidad_contextual": "2f98d84a61a96ec1c994f1d75b2fd442b098c1bcee9973a219b6f48986cc5096",
+      "ponderar_afinidad": "2cce298a49c9aa0a4de055968a26c2e8f97a7d9861864d1a5496dad07c6a566e",
+      "construir_contextuales": "2cd9bd875342c3519608d20eb24dfc00966c90c4f2bd3a2c1f0a216e7eebade1",
+      "ajustar_pareja_contextual": "3433f5999eb3f3df16d5aada20556c6ca0b81c2154a45b6b68a8c7c657ccda1f",
+      "_tarea": "df75567966a51fa997fc949e865c17cc76c98fadd2e31f0ad5dcfc2609813d3a"
+    }
+  },
+  "equilibrio": {
+    "origen": "src/faltas/equilibrio.py",
+    "sha256_original": "5f0322b5ef7cc16da7b4a345f95f6259099043e66aac31478f4963afee46ef98",
+    "cuerpos_sha256": {
+      "equilibrar_masas": "5e749d4f5f751705fcb74e143fa59d3054e360bbcc323d013f4832daf89923cf",
+      "pesos_con_soporte": "07f98d6d2ccd5494a0319d506e5ec92684290073b604050fa5c116ed51512d01",
+      "ajustar_pareja_politica": "81548835cf16410f65fb9294e986cd4db8395089f0c9d3ea1b82e71c0f08e168"
+    }
+  },
+  "cierre_temporal": {
+    "origen": "src/faltas/cierre_temporal.py",
+    "sha256_original": "bfd4f54c70cf74a80f88020db06281064a438f39dfe3e6e038f2af271c234f36",
+    "cuerpos_sha256": {
+      "validar_corte": "e4bed6bab2ec813f3b18cb25bd42d1468f8c460fe1e0a75582531b8d85717253",
+      "ejecutar_corte": "aebeded6b781ac34f76cb5f820125c52b3d5c875051292a0b25840a3e892720f"
+    }
+  },
+  "grid_temporal": {
+    "origen": "src/faltas/grid_temporal.py",
+    "sha256_original": "ce672eb0f2c8ae5508ea246c7c37d61ad788fecc4a48de2f6f6403fdefc13d33",
+    "cuerpos_sha256": {
+      "_preparar": "3921737fe36a16ec5305633fefb5542ed59c7db00ae2b01f1f681126cf1a6fec",
+      "_preparar_local": "9e3e7e66f344dc70c93f851694d4dd4c237f9e29000c6e7ca6280461d9038e5f",
+      "predecir_preparado": "40c7cb008f18cac384e3645b30f484283f65a800734b2ca2ef67cf320a9a2be6",
+      "evaluar_corte_rejilla": "624e39d0fb72cce3298774a916ec7b3254b22c72b58b5c8e5a59bd66f5171de0",
+      "seleccionar_grid": "60878ef265ed01b7f7b79dff02e4e0729fd0ae8b4256c7c2d5ae35e3ef5088d8"
+    }
+  },
+  "diagnostico_equipos": {
+    "origen": "src/faltas/diagnostico_equipos.py",
+    "sha256_original": "18411484d41e82999213ac0b1f1f476ae196dfc2ad48d9f64fbc6e6462d4c23c",
+    "cuerpos_sha256": {
+      "validar_predicciones": "e4e3b24ea5d71dd13d31a50c67bdb03a6947a9fb152a3f381399222616bb6094",
+      "resumir_por_equipo": "1260ccf0138894b764ae340cf901e148ec1805e109be7b84bda2d90590f43e91",
+      "comparar_modelos": "cff02afc71732a7f98eea76c00fea732d73342bf884a0b01d6b0bba0434d8607",
+      "graficar_errores": "7622121ed08beaca80d22b578f8b5e3e9008ef67e3558699dca9e139bd7f95a2",
+      "graficar_variabilidad": "a10d55dde6081ba6a590d24282a1591213f38d7cdef986fd9468aa8ff0a9e9fc"
+    },
+    "cuerpos_previos_sha256": {
+      "graficar_errores": "1866c7d305c3432ce6fff0385bd5f02ef8032f6f011b3935262f438cea6a8166",
+      "graficar_variabilidad": "06070c484fd6fcf6f63df30d0901a10cdf3026165aad7d5d248553392138e30f"
+    },
+    "adaptacion_presentacion": "Dos títulos y nombres de gráficos pasan de recuentos literales a recuentos de su propia tabla. No cambian métricas ni ajuste."
+  },
+  "analisis_cierre": {
+    "origen": "src/faltas/analisis_cierre.py",
+    "sha256_original": "697a16ebb2b3ec30d828bd0a05222091cc35a1637733b4eeeb46c42def6f0e69",
+    "cuerpos_sha256": {
+      "resumen_error": "b4d382e1b191ba53a4bb1eed7e668748df2ca3ef12afc32648db86a9cd9e47d5",
+      "por_muestra": "f1fc0bdddab12f15caea75c71f1688a5661287422ce14e3aab245a7761bb292a",
+      "resumir_sesgos": "85a580853b25ae75b87f643443511a01408c95cb06f863d2ff6ed15f81811f6c",
+      "anadir_contexto": "f2810c3c16f8f3675f8b754fd531f5a32176bc7aa9866d124e5374272baf67a1",
+      "resumir_contextos": "b44f5a5e4a9c42fb08c9415eff99e1f3867e9b2a9f9b6be5187bd15484f9b029",
+      "limites_tramos": "13c7f7164295604a22dcf92f8b2d9984d875fe9d9185e8253060c7202dec677e",
+      "resumir_discriminacion": "96b0ffc11e7ee8b6fd20337884a5a972ac74f597e6842c20b2f37c0fa2eefa53",
+      "elegir_casos": "7d9dfabd509f26b1abce5355a57a045c1dc0bfd68a1615bea3c488ca2980279a"
+    }
+  },
+  "explicaciones_cierre": {
+    "origen": "src/faltas/explicaciones_cierre.py",
+    "sha256_original": "b9bc578e1f8338afddfc020637737263ba25ea6ba923aa13901d314517f807fb",
+    "cuerpos_sha256": {
+      "mapa_variables": "16c673317e02cc99b68089669bae5669d976fa222ef882e3acaba7d1183793ad",
+      "contribuciones_modelo": "75a0ef660b7ee7ed022d8e23103728364c51a0b244455936da4a6539c7a7db2a"
+    }
+  }
+}

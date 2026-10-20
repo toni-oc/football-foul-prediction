@@ -1,0 +1,13 @@
+modelo,periodo,nivel,partidos,n,RMSE,MAE,sesgo,muestra
+local_perfil_directos_equilibrado,2026/27,Equipo,59,118,3.756287089091074,2.9722126950168044,0.3742467502900056,Desarrollo
+local_perfil_directos_equilibrado,2026/27,Local,59,59,3.7047900726497245,3.0318235821663806,0.3608578952671635,Desarrollo
+local_perfil_directos_equilibrado,2026/27,Visitante,59,59,3.8070875888191282,2.912601807867229,0.3876356053128477,Desarrollo
+local_perfil_directos_equilibrado,2026/27,Total partido,59,59,5.830911447352959,4.933289141073276,0.7484935005800113,Desarrollo
+local_perfil_directos_equilibrado,2026/27,Equipo,29,58,4.261859413502518,3.2939774579015273,0.2168649640576593,Contraste temporal
+local_perfil_directos_equilibrado,2026/27,Local,29,29,4.769419252393671,3.6950882221090384,-0.18674521610654635,Contraste temporal
+local_perfil_directos_equilibrado,2026/27,Visitante,29,29,3.6850415622916173,2.892866693694016,0.6204751442218649,Contraste temporal
+local_perfil_directos_equilibrado,2026/27,Total partido,29,29,6.304246606390152,4.775710040125354,0.4337299281153186,Contraste temporal
+local_perfil_directos_equilibrado,2026/27,Equipo,88,176,3.930087601958544,3.0782488100583607,0.3223822980088915,Temporada actual acumulada
+local_perfil_directos_equilibrado,2026/27,Local,88,88,4.086391133453365,3.250399429420211,0.18039777901900914,Temporada actual acumulada
+local_perfil_directos_equilibrado,2026/27,Visitante,88,88,3.767304689372793,2.906098190696511,0.4643668169987738,Temporada actual acumulada
+local_perfil_directos_equilibrado,2026/27,Total partido,88,88,5.9910296609490805,4.8813596646245285,0.644764596017783,Temporada actual acumulada

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "football-foul-prediction"
+version = "1.0.0"
+description = "Evaluación temporal y predicción de faltas por equipo con datos CSV locales"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE.md"]
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "numpy==2.4.6", "pandas==3.0.3", "scikit-learn==1.9.0", "xgboost==3.4.1",
+  "joblib==1.5.3", "threadpoolctl==3.6.0", "matplotlib==3.10.9", "tzdata==2026.2"
+]
+
+[project.optional-dependencies]
+notebooks = ["ipykernel==7.2.0", "jupyter-client==8.8.0"]
+
+[project.scripts]
+faltas = "faltas.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+faltas = []

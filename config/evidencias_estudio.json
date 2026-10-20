@@ -1,0 +1,410 @@
+[
+  {
+    "destino": "reports/investigacion/ajuste/concentracion.csv",
+    "sha256": "0e266aca019a914d0e2904dea466bcb23418b9dcb3bfd911e08b9d73f245d48e"
+  },
+  {
+    "destino": "reports/investigacion/ajuste/diagnostico_ajuste.csv",
+    "sha256": "8060b739f4040f9f5101834b78c13502ba144d24a7343d613f4e0ad99d88a2aa"
+  },
+  {
+    "destino": "reports/investigacion/ajuste/metricas.csv",
+    "sha256": "99688731fcdd6506250f1945d0cd8752cfa1df093aaca28477949f9ca602cde1"
+  },
+  {
+    "destino": "reports/investigacion/ajuste/precision.csv",
+    "sha256": "e6ab829a8f1586ec225efef025d707f412a4bc3951a88c2853a6f055bbbb0a7a"
+  },
+  {
+    "destino": "reports/investigacion/ajuste/ranking.csv",
+    "sha256": "067fc61599580df5f5cf431be065269941f7b67aa2b0604c8356f86688dd859d"
+  },
+  {
+    "destino": "reports/investigacion/ajuste/resumen_masas.csv",
+    "sha256": "05cb92bea15cc32d07fd4c19f307fd5e72b38887c87d6c10922ae68539432a62"
+  },
+  {
+    "destino": "reports/investigacion/ajuste/segmentos.csv",
+    "sha256": "41095066e6dd37ef8010026de37a20813e3d9b8faf531afb3a63d7c1229129f3"
+  },
+  {
+    "destino": "reports/investigacion/confirmacion/diagnostico_ajuste.csv",
+    "sha256": "728a70c254084776872dc877547f4dde3da092ba623adb6d6b242f6603293c2c"
+  },
+  {
+    "destino": "reports/investigacion/confirmacion/metricas.csv",
+    "sha256": "00d11f97844d221ded320197987dd82f0b191d21c91a2163fa69be69ac871d9f"
+  },
+  {
+    "destino": "reports/investigacion/confirmacion/resumen_masas.csv",
+    "sha256": "d58f0c1e1929bc850c290dbc84ea93700afe1968d5f317bbf9e6ee0333d56b14"
+  },
+  {
+    "destino": "reports/investigacion/confirmacion/resumen_soporte.csv",
+    "sha256": "a2fceb2407e10471e5b3da8046faaefc3c8b9e33d81fc7eb7b27126fd81c8f40"
+  },
+  {
+    "destino": "reports/investigacion/contextuales/concentracion.csv",
+    "sha256": "89e945e52a9a7b82b482f07dc4ec0d360c98af6b8f8b41c1b7b818fead4140e4"
+  },
+  {
+    "destino": "reports/investigacion/contextuales/diagnostico_ajuste.csv",
+    "sha256": "7ea22a6373afdf14127c1b26eff94bfa4fed56ddf722c945a36f907e96ed0588"
+  },
+  {
+    "destino": "reports/investigacion/contextuales/metricas.csv",
+    "sha256": "886356ab0e5009ba28a8ebcaffcac4d46199b5b48e6f0afb927837f2b468c6f7"
+  },
+  {
+    "destino": "reports/investigacion/contextuales/precision.csv",
+    "sha256": "eb361cc694f1e19761b72d12c33be81a7f0a2a0c94d27527a7163084a5634ed1"
+  },
+  {
+    "destino": "reports/investigacion/contextuales/ranking.csv",
+    "sha256": "2ab69db63416b3893bfc11afb3097c6c5881f643a2c20c7bd756c5d76f17a996"
+  },
+  {
+    "destino": "reports/investigacion/contextuales/resumen_masas.csv",
+    "sha256": "b153ba077f2bd5140743ede7510c02996d46aa46dfb5f36488167cb5a0160a5f"
+  },
+  {
+    "destino": "reports/investigacion/contextuales/segmentos.csv",
+    "sha256": "f38001a24dab693105fe880521ab0ebe4b28211f5bbc871320f14cfd3e16c5a1"
+  },
+  {
+    "destino": "reports/investigacion/contraste/metricas.csv",
+    "sha256": "07486eb3849f459889f32b6ced7e692ec4e92a1b1b35e3f171ed515aa2cc44f5"
+  },
+  {
+    "destino": "reports/investigacion/contraste/precision.csv",
+    "sha256": "a5b7d2bbf712c11df814d4c06b9c5055e73c91ca7a79701c3be6c69cdbd36023"
+  },
+  {
+    "destino": "reports/investigacion/desarrollo/catalogo_38.csv",
+    "sha256": "2e6c3c412ece8f7ffa5ac902c3b27a4efa128b8e34fcf1a8af5805a291b5e9ef"
+  },
+  {
+    "destino": "reports/investigacion/desarrollo/intervalos.json",
+    "sha256": "19b54b8d98626ce196a23f9cb86e291e34ec0490f05b110e30c195f11a110cdf"
+  },
+  {
+    "destino": "reports/investigacion/desarrollo/metricas.csv",
+    "sha256": "71cd0cd3306e72d6ef06cd010806fcb13b9451fe4ee0a6fd3b94b550f47c6c6f"
+  },
+  {
+    "destino": "reports/investigacion/desarrollo/ranking.csv",
+    "sha256": "3325eca2a1a7eb45e4d4600b9c327403ee32ca8020df1ad214c6b94d5e9e1932"
+  },
+  {
+    "destino": "reports/investigacion/eda/arbitros_descriptivos.csv",
+    "sha256": "7d13323016aa9af5f416a203f1d30416983bbf09c918f3bc5956086ede7855f3"
+  },
+  {
+    "destino": "reports/investigacion/eda/asociaciones_posteriores.csv",
+    "sha256": "7d9185b7f2a912504f9576c5733be9832146958dfada2f5b58aadb0b512756ce"
+  },
+  {
+    "destino": "reports/investigacion/eda/auditoria_numericas.csv",
+    "sha256": "7f236eda1828d36c1c24a237a9f81b62ba88322f9eda0c0d89956fb7d9f858e5"
+  },
+  {
+    "destino": "reports/investigacion/eda/cobertura.csv",
+    "sha256": "bb2eda51ec1be410dcddbb303bd50777003804106395a17d180902419002fe12"
+  },
+  {
+    "destino": "reports/investigacion/eda/cobertura_categorias.csv",
+    "sha256": "c7e8a061e13bfe3832632ee28c09d9d0e993935460345d8ec7910681ed956f9a"
+  },
+  {
+    "destino": "reports/investigacion/eda/distribucion_equipo.csv",
+    "sha256": "3bfade3ac2609f4d77c034e8dcdfb78702090634a9061ec2bc4ccba70e300991"
+  },
+  {
+    "destino": "reports/investigacion/eda/distribucion_total.csv",
+    "sha256": "4da6162ad5519f3874970b8fa2ebc0e6421173d7efe319bad99a1463dd94bf1f"
+  },
+  {
+    "destino": "reports/investigacion/eda/equipos_actuales.csv",
+    "sha256": "1caf2b651e01dd8a843ead4cc97c7345c3be4a90920e0ece59df7b7721558257"
+  },
+  {
+    "destino": "reports/investigacion/eda/equipos_temporada.csv",
+    "sha256": "d256a622c0e62defb8f0157bd18528cd3be1d26a3cad0a3f129617a1e99b3acb"
+  },
+  {
+    "destino": "reports/investigacion/eda/evolucion_mensual.csv",
+    "sha256": "f2e038aeed33c433538b1592ea8c96ea01275b6e40c549b589be28113cf444ca"
+  },
+  {
+    "destino": "reports/investigacion/eda/objetivo_localia.csv",
+    "sha256": "fc23cfe00a91359adaa6dcc16025430480aa4f16ef31539d7866946b30c858c1"
+  },
+  {
+    "destino": "reports/investigacion/eda/objetivo_temporada.csv",
+    "sha256": "ccea1cc07c4a93f5e3761391083775aed8637321eb63999c92a5910363b0a249"
+  },
+  {
+    "destino": "reports/investigacion/eda/objetivo_total_partido.csv",
+    "sha256": "a8c3bba77d484bdf6bd2ade741e26512dbc28cee2cd238a283e26e06e59e4b18"
+  },
+  {
+    "destino": "reports/investigacion/eda/roles_observaciones.csv",
+    "sha256": "a1040d3e0656a4639057cfa8fbe5af9c36fbaf93a3e48d51236bd28bee39a49a"
+  },
+  {
+    "destino": "reports/investigacion/equilibrio/concentracion.csv",
+    "sha256": "b580e1edf2f1fc0826e5ea123a7ff1640b1ee7302496e0ea612d32cf634793b1"
+  },
+  {
+    "destino": "reports/investigacion/equilibrio/diagnostico_ajuste.csv",
+    "sha256": "0b9a344ea9a5f8354a637e7b33477029c628ae28de9c186a66adf98cd10e48df"
+  },
+  {
+    "destino": "reports/investigacion/equilibrio/metricas.csv",
+    "sha256": "523bc32cc23ec5983b17f2f0bf68983c87b527c16eab43ad8053f58f71a2c7c5"
+  },
+  {
+    "destino": "reports/investigacion/equilibrio/precision.csv",
+    "sha256": "64b99bf11f6939e16d8f1762fcb32a2aca7dfa5e525b3e6b1413c155abd16331"
+  },
+  {
+    "destino": "reports/investigacion/equilibrio/ranking.csv",
+    "sha256": "a0b75df75b705551095957f905669e555aa28434c44c3439aab641b90487e1ff"
+  },
+  {
+    "destino": "reports/investigacion/equilibrio/resumen_masas.csv",
+    "sha256": "2753119e5e7533e36fb0ff1ba38cf74adb0065e40bb52a0d2f0aba3417371e47"
+  },
+  {
+    "destino": "reports/investigacion/equilibrio/resumen_soporte.csv",
+    "sha256": "8668b87a0711052927e9c7fe10ceb3d458b3ab02d005a631636ca0b08ca3ea5b"
+  },
+  {
+    "destino": "reports/investigacion/equilibrio/segmentos.csv",
+    "sha256": "af882ca62aea739f44cbb954df3aaac8bdef5e27d348eb9f87e76ad0661b0fe9"
+  },
+  {
+    "destino": "reports/investigacion/inicial/concentracion.csv",
+    "sha256": "de915557e8b81448da0936b9bcbe2db9bf09aa652512867cfda91cf2368d7a88"
+  },
+  {
+    "destino": "reports/investigacion/inicial/diagnostico_ajuste.csv",
+    "sha256": "21c8880315b6086351cdc05faa8ba0c4b27862919cc8e9b9e8d3f30f30561494"
+  },
+  {
+    "destino": "reports/investigacion/inicial/metricas.csv",
+    "sha256": "c54c20255128305520b714e2189ac60d811f1f33668dc24de56f87b905bbef67"
+  },
+  {
+    "destino": "reports/investigacion/inicial/precision.csv",
+    "sha256": "18c0b80baeb81fed360733842d2475d2405975d6fa641e040d143acc9595ea7e"
+  },
+  {
+    "destino": "reports/investigacion/inicial/ranking.csv",
+    "sha256": "25842894ab4b4e50cf532a577138878678292ff374a38b7b8a645a2c4c31a578"
+  },
+  {
+    "destino": "reports/investigacion/inicial/resumen_masas.csv",
+    "sha256": "00729c27167d30442061a68dfe78a9e7d6a5f91c2cbdb7fba23ddabcabfb8742"
+  },
+  {
+    "destino": "reports/investigacion/inicial/segmentos.csv",
+    "sha256": "9b8a3e5b7686f06eda0331de8a85d3c49c9cb1601df29a6f9aa58e0fc8c61a76"
+  },
+  {
+    "destino": "reports/investigacion/pesos/mejores_individuales.csv",
+    "sha256": "e4972341987320093192004f6102eabaeb018d154784a404c5ab52c960ee71b4"
+  },
+  {
+    "destino": "reports/investigacion/pesos/metricas.csv",
+    "sha256": "769c09958a238b81bd56dd55791dad911851ff90cd2e3b95442dc19037b8598c"
+  },
+  {
+    "destino": "reports/investigacion/pesos/seleccion.csv",
+    "sha256": "73be625cab65c29f08c33af8e9098f6450c912435009c4e6548e92e9e59c5e28"
+  },
+  {
+    "destino": "reports/investigacion/reducidos/concentracion.csv",
+    "sha256": "58a54a98b58baef3427404a601f88d1d52beb5c6097867b9dadf2cf71486badf"
+  },
+  {
+    "destino": "reports/investigacion/reducidos/diagnostico_ajuste.csv",
+    "sha256": "86815ac678acbc374457d0d4857612555aa8e48028c4fc2af3c7d34edd7f0eb8"
+  },
+  {
+    "destino": "reports/investigacion/reducidos/metricas.csv",
+    "sha256": "0b73ec2237c91799141ce195715b7c1b7e1c8d2cd98c7422c768a8794b977a60"
+  },
+  {
+    "destino": "reports/investigacion/reducidos/precision.csv",
+    "sha256": "45877f7ff9d00ac6b1ff8a1f001b9acf06afac4b520a081cb426cc953e91782a"
+  },
+  {
+    "destino": "reports/investigacion/reducidos/ranking.csv",
+    "sha256": "8cf14d47cc59262a7eb12c6d7a15e02eadb9d5753d01775f514cb7d3f80cf3d6"
+  },
+  {
+    "destino": "reports/investigacion/reducidos/resumen_importancias.csv",
+    "sha256": "5df1a5ac145170344a0d7bcf7796e2584d675ccd3706695390fd8f8cb615713d"
+  },
+  {
+    "destino": "reports/investigacion/reducidos/resumen_masas.csv",
+    "sha256": "03a195fe31636bc3323e6e6854712b3ceddbfc226d65a5db3650168cb997ae0e"
+  },
+  {
+    "destino": "reports/investigacion/reducidos/segmentos.csv",
+    "sha256": "9d58488516235cf802908a9c77aefa83195d8e5f6da7c4c6447183c9d44a3b62"
+  },
+  {
+    "destino": "reports/investigacion/rejilla/concentracion.csv",
+    "sha256": "06d5ef5204a998e8593b81357aed2b3e0e72e1fe7ddef7dcdb10da1686fd5fb5"
+  },
+  {
+    "destino": "reports/investigacion/rejilla/metricas.csv",
+    "sha256": "0d6dd8156631c92f29eaae8dcae479158210c39a27dfd8c04dfe22a11b1d4c63"
+  },
+  {
+    "destino": "reports/investigacion/rejilla/precision.csv",
+    "sha256": "907ea9866ef2a816aad69fc16976d4547dcce2d0643e81d40c493a9eebf27eb8"
+  },
+  {
+    "destino": "reports/investigacion/rejilla/ranking.csv",
+    "sha256": "b3a9018ab83e038bf4f2772702c0bcd08bb8a28c95338df0af571434344e5aab"
+  },
+  {
+    "destino": "reports/investigacion/rejilla/segmentos.csv",
+    "sha256": "073cec08baf4b1f88d0a1f7e8f6a5ab4706c1594af0a95a07389433d40bcacd4"
+  },
+  {
+    "destino": "reports/investigacion/rejilla/seleccion.csv",
+    "sha256": "2de6dbd14de1db7531f2f794945321a9bd2af93ad4f0f192e20d442c46f2af26"
+  },
+  {
+    "destino": "reports/actualizacion_v1/alternativas_ajuste.csv",
+    "sha256": "d18f930b8c6f736fb05b5ddda97ab2aeffc77fe8f87a2a5d1153f670421dadef"
+  },
+  {
+    "destino": "reports/actualizacion_v1/alternativas_confirmacion.csv",
+    "sha256": "aab00ca4c6e26f572ae93a76a0e50977437416661c9aa7aba1c24f0cece048b3"
+  },
+  {
+    "destino": "reports/actualizacion_v1/alternativas_contextuales.csv",
+    "sha256": "4155acf0accefe73b84c9ec36c5e21830fa35f9cf9e5877bc103693c401ec971"
+  },
+  {
+    "destino": "reports/actualizacion_v1/alternativas_equilibrio.csv",
+    "sha256": "7238f1598a446b21515d3520b190f7a932898dcd85a91cebe104840e69b956fb"
+  },
+  {
+    "destino": "reports/actualizacion_v1/alternativas_inicial.csv",
+    "sha256": "d0d7f2ab44e6e85f500b75bcf3c8eb424df786c7fa524b2bd1a0195e64e9a434"
+  },
+  {
+    "destino": "reports/actualizacion_v1/alternativas_reducidos.csv",
+    "sha256": "e95c25d58fd61fa47833e3e296c7248f52ba0b66e5d2ab6eb6461daf98b08775"
+  },
+  {
+    "destino": "reports/actualizacion_v1/alternativas_rejilla.csv",
+    "sha256": "514c8b70fdc3b517b317986fefa2f2d7c5dac9c02f47ecdfb305e8ca2cbb056c"
+  },
+  {
+    "destino": "reports/actualizacion_v1/catalogo_38.csv",
+    "sha256": "2e6c3c412ece8f7ffa5ac902c3b27a4efa128b8e34fcf1a8af5805a291b5e9ef"
+  },
+  {
+    "destino": "reports/actualizacion_v1/contextos.csv",
+    "sha256": "362afbeadefa0065abc667225db68deb6e34dc534fb73538f0b3e7961fc8e620"
+  },
+  {
+    "destino": "reports/actualizacion_v1/contribuciones_resumen_1.png",
+    "sha256": "b021c9c2719b0266747ed85e5442f70d894a0fc03e3676453854b32143e8d962"
+  },
+  {
+    "destino": "reports/actualizacion_v1/contribuciones_resumen_2.png",
+    "sha256": "4f8adc4cdd13b38bbbdc8d8bd61ea284040739c5b6bcded27d102da21e64302c"
+  },
+  {
+    "destino": "reports/actualizacion_v1/discriminacion_y_calibracion.png",
+    "sha256": "6dab56fc176c2d74dd4b86238f19d054eb44cf3ad70cfc42edbe2895516c5e50"
+  },
+  {
+    "destino": "reports/actualizacion_v1/dispersion_predicciones.csv",
+    "sha256": "2834af6fd209d23df4f7431721495181e6d750c52204a8fce7dedeea71b15680"
+  },
+  {
+    "destino": "reports/actualizacion_v1/distribucion_errores.png",
+    "sha256": "cd386aacf5879783b3b9e3807c25486783d812c62e4292531aac164c2803f02e"
+  },
+  {
+    "destino": "reports/actualizacion_v1/error_por_contexto.png",
+    "sha256": "43e27edd7837991ed0bbb050c29391d23f516af6688b4016d64f6a777ac73d5b"
+  },
+  {
+    "destino": "reports/actualizacion_v1/error_por_equipo.png",
+    "sha256": "7ac6beecf88cb7d853c8847fdd52350fca2763d0c595d6ca295d99b4379cc49d"
+  },
+  {
+    "destino": "reports/actualizacion_v1/intervalos_exploratorios.json",
+    "sha256": "023b208fa2ef0c0fc156a4c57b2b2434a68520e69cda3b365930500575d47dcc"
+  },
+  {
+    "destino": "reports/actualizacion_v1/metricas.csv",
+    "sha256": "e453de25867961ff0fcd1d99765a844ea50b106c23e8e5168c1185f4453d894a"
+  },
+  {
+    "destino": "reports/actualizacion_v1/metricas_por_equipo.csv",
+    "sha256": "b4eeb8d1caa5a1234d6d1413e691d530f466dc83e092ba160a179ad51537b03d"
+  },
+  {
+    "destino": "reports/actualizacion_v1/metricas_totales.csv",
+    "sha256": "c26c8c31f146c1891fe43bad782f028a7e017c357f652fd3cd2b0dafb2f4217a"
+  },
+  {
+    "destino": "reports/actualizacion_v1/pesos_comparacion.csv",
+    "sha256": "73be625cab65c29f08c33af8e9098f6450c912435009c4e6548e92e9e59c5e28"
+  },
+  {
+    "destino": "reports/actualizacion_v1/pesos_metricas.csv",
+    "sha256": "769c09958a238b81bd56dd55791dad911851ff90cd2e3b95442dc19037b8598c"
+  },
+  {
+    "destino": "reports/actualizacion_v1/precision.csv",
+    "sha256": "e127b6452dde418fa7894151ea3ff6bcd2585d986994d032a0887749ef3ffe3e"
+  },
+  {
+    "destino": "reports/actualizacion_v1/ranking_modelos.csv",
+    "sha256": "05cf031f1af51e3e18d6d9750acf0ff2e0f5c4c0199344c0b0a5481eb6fe7f4b"
+  },
+  {
+    "destino": "reports/actualizacion_v1/reevaluacion_alternativas.json",
+    "sha256": "e45aa9fdd2e0da656c7b485463144a9d3dcb7aadfd8ad22358e68d1c89d3425f"
+  },
+  {
+    "destino": "reports/actualizacion_v1/resumen.json",
+    "sha256": "b6ea3eae794b5e9410e8ecfb66f73083f3194ce75fb723537aea6dfce39f8ec1"
+  },
+  {
+    "destino": "reports/actualizacion_v1/sesgo_por_equipo.png",
+    "sha256": "74de64df40c8b5dac608a5cde0f408af6df475509d50c9ec1065c680b2c6a9e7"
+  },
+  {
+    "destino": "reports/actualizacion_v1/sesgos_generales.csv",
+    "sha256": "c91d12f8c6dd725b909629875914fa045ba782f4231b02db2c983960c63afe5f"
+  },
+  {
+    "destino": "reports/actualizacion_v1/sesgos_por_equipo.csv",
+    "sha256": "646c584bf92d1df290772f89a9a5e676f2180a1916b6c54c90a5f2ce1042dff8"
+  },
+  {
+    "destino": "reports/actualizacion_v1/tramos_prediccion.csv",
+    "sha256": "8b96894d124ae47569f5daea9714c8c9cbae1b956ac4be626dc233fc30ec4744"
+  },
+  {
+    "destino": "reports/actualizacion_v1/variabilidad_observada.csv",
+    "sha256": "f7a1c8f0eb159a38446afc2b2a621d72db44480735d43f20af4a33f83fe758a1"
+  },
+  {
+    "destino": "reports/actualizacion_v1/variabilidad_observada.png",
+    "sha256": "b61a47230c3ab40b30f6f23e20e24e02c18dcf77bcc19fdff193bb95f8d7086c"
+  }
+]
